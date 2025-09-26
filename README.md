@@ -1,4 +1,4 @@
-# Hello, I’m [Bilal] 👋
+# Hello 🖐️ , I’m Bilal Bounadja, welcome to my portfolio, if you have any questions feel free to contact me.
 
 👨‍💻 Data Scientist | AI Engineer | Curious.
 
@@ -30,9 +30,9 @@
 
 ## Projects
 
-- 🧮 **[Project Name 1]** — Short description, technologies used, or outcomes achieved
-- 🤖 **[Project Name 2]** — Robotics, IoT, or other personal/professional project
-- 📚 **[Educational Project]** — Course, tutorial, or case study example
+- 💻 **[Project Name 1]** — Data Science personnal projects
+- 🤖 **[Project Name 2]** — Robotics and IoT projects
+- 📚 **[Educational Project]** — Course or case study example
 - 🔒 **[Private or Client Project]** — Brief explanation without public code
 
 ---
@@ -43,9 +43,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
 
----
 
-*“Stay curious and keep coding!”*
+
 
 
 
