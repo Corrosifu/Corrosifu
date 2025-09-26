@@ -1,3 +1,7 @@
+<img width="2245" height="1587" alt="Design sans titre" src="https://github.com/user-attachments/assets/45032e3b-2744-4183-bf89-0142de43c77c" />
+
+
+
 # Hello 🖐️ , I’m Bilal Bounadja, welcome to my portfolio, if you have any questions feel free to contact me.
 
 👨‍💻 Data Scientist | AI Engineer | Curious.
@@ -65,6 +69,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
+
 
 
 
