@@ -14,9 +14,6 @@
 
 ## Skills
 
-## Skills
-## Skills
-
 | Data Science                                             | Robotics & IoT                                       | DevOps & Miscellaneous                              |
 |----------------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" title="Python" /> Python | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" title="Linux" /> Linux | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" title="Git" /> Git   |
@@ -49,6 +46,7 @@
 ---
 
 *“Stay curious and keep coding!”*
+
 
 
 
