@@ -35,6 +35,20 @@
 - 📚 **[Educational Project]** — Course or case study example
 - 🔒 **[Private or Client Project]** — Brief explanation without public code
 
+- 💻 **Spam Detection Methods History (2025)**  
+  Conducted a bibliographic study and data analysis on spam detection methods. Developed preprocessing pipelines using Python (NLTK, SpaCy) and implemented various detection techniques ranging from keyword heuristics to machine learning (Logistic Regression, KNN, Naive Bayes, Random Forest, XGBoost) and deep learning approaches (fine-tuned DistilBERT). Achieved high accuracy and F1 scores, with analysis of model biases and effectiveness.
+
+- 💻**Covid-19 Case Prediction (2024)**  
+  Performed thorough data cleaning and rebalancing (SMOTE) to predict Covid-19 cases using multiple machine learning algorithms. Achieved 90% accuracy and 75% recall through advanced modeling and hyperparameter tuning, with focus on key metrics for clinical decision support.
+
+- 🤖**TurtleBot Autorace (2022)**  
+  Developed autonomous robot navigation, obstacle avoidance, and trajectory tracking algorithms. Integrated multiple sensors (LIDAR, camera) with ROS and Gazebo for simulation, and OpenCV for image processing.
+
+- 🔒**Sales Forecasting at Jaeger-LeCoultre (2023)**  
+  Built predictive sales models with Python and machine learning frameworks on large SQL and BigQuery datasets. Delivered improved prediction accuracy (85% wMAPE) over supply chain benchmarks and visually communicated results for informed decision-making.
+
+- 🔒**Model-Based Reinforcement Learning Research (2022)**  
+  Researched and implemented model-based reinforcement learning algorithms using Python with Gym environment. Applied deep reinforcement learning techniques (DDPG, DQN) to autonomous parking problems, with focus on model optimization and simulation.
 ---
 
 
@@ -42,6 +56,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
+
 
 
 
