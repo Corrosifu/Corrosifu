@@ -14,10 +14,44 @@
 
 ## Skills
 
-| Data Science & AI                                                                                                     | Programming                                         | Cloud & DevOps                             | Robotics & Tools                              |
-|-----------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|--------------------------------------------|-----------------------------------------------|
-| <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" width="20" /> Python, <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tensorflow.svg" alt="TensorFlow" width="20" /> TensorFlow, <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/pytorch.svg" alt="PyTorch" width="20" /> PyTorch, <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/scikitlearn.svg" alt="Scikit-learn" width="20" /> scikit-learn, Pandas, Keras, Transformers, NLTK, SpaCy, Seaborn, Matplotlib, Gym, Numpy, Scipy, SB3, Pygame, Plotly, Optuna, Hyperopt | <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" width="20" /> Python, <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/c.svg" alt="C" width="20" /> C, <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cplusplus.svg" alt="C++" width="20" /> C++, Fortran, Caml, Matlab, SQL | <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlecloud.svg" alt="GCP" width="20" /> GCP, <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS" width="20" /> AWS, <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftazure.svg" alt="Azure" width="20" /> Azure, SQL Server, NoSQL | <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/ros.svg" alt="ROS" width="20" /> ROS, <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/solidworks.svg" alt="SolidWorks" width="20" /> SolidWorks, Gazebo, SLAM, OpenCV |
-|                                                                                                                       |                                                    | PowerBI, Excel, Tableau                    |                                               |
+## Skills
+
+### Data Science  
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/jupyter.svg" alt="Jupyter" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/scikitlearn.svg" alt="Scikit-Learn" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tensorflow.svg" alt="TensorFlow" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/pytorch.svg" alt="PyTorch" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/numpy.svg" alt="NumPy" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/scipy.svg" alt="SciPy" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/matlab.svg" alt="MATLAB" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mysql.svg" alt="MySQL" width="40" height="40" />  
+</p>
+
+### Robotics & IoT  
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linux.svg" alt="Linux" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/raspberrypi.svg" alt="Raspberry Pi" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/arduino.svg" alt="Arduino" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/c.svg" alt="C" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cplusplus.svg" alt="C++" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/ros.svg" alt="ROS" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/opencv.svg" alt="OpenCV" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gazebo.svg" alt="Gazebo" width="40" height="40" />  
+</p>
+
+### DevOps & Misc  
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/git.svg" alt="Git" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gitlab.svg" alt="GitLab" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlecloud.svg" alt="Google Cloud" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftazure.svg" alt="Azure" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/powerbi.svg" alt="PowerBI" width="40" height="40" />  
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tableau.svg" alt="Tableau" width="40" height="40" />
+</p>
 
 ---
 
@@ -39,6 +73,7 @@
 ---
 
 *“Stay curious and keep coding!”*
+
 
 
 
