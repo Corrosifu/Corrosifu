@@ -25,7 +25,7 @@
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="40" title="TensorFlow" /> TensorFlow | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" title="C" /> C  | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="40" title="AWS" /> AWS |
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="40" title="PyTorch" /> PyTorch | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" title="C++" /> C++ | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftazure/microsoftazure-original.svg" width="40" title="Azure" /> Azure |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" title="NumPy" /> NumPy | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ros/ros-original.svg" width="40" title="ROS" /> ROS | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" title="Docker" /> Docker |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/seaborn/seaborn-original.svg" width="40" title="Seaborn" /> Seaborn | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="40" title="OpenCV" /> OpenCV | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/powerbi/powerbi-original.svg" width="40" title="PowerBI" /> Power BI |
+| <img src="https://github.com/devicons/devicon/tree/v2.17.0/icons/seaborn/seaborn-original.svg" width="40" title="Seaborn" /> Seaborn | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="40" title="OpenCV" /> OpenCV | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/powerbi/powerbi-original.svg" width="40" title="PowerBI" /> Power BI |
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg" width="40" title="MATLAB" /> MATLAB | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gazebo/gazebo-original.svg" width="40" title="Gazebo" /> Gazebo | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tableau/tableau-original.svg" width="40" title="Tableau" /> Tableau |
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" title="MySQL" /> MySQL | | |
 
@@ -49,6 +49,7 @@
 ---
 
 *“Stay curious and keep coding!”*
+
 
 
 
