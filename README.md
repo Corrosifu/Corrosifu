@@ -16,42 +16,18 @@
 
 ## Skills
 
-### Data Science  
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/jupyter.svg" alt="Jupyter" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/scikitlearn.svg" alt="Scikit-Learn" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tensorflow.svg" alt="TensorFlow" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/pytorch.svg" alt="PyTorch" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/numpy.svg" alt="NumPy" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/scipy.svg" alt="SciPy" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/matlab.svg" alt="MATLAB" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mysql.svg" alt="MySQL" width="40" height="40" />  
-</p>
+| Data Science                                             | Robotics & IoT                                       | DevOps & Miscellaneous                              |
+|----------------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" title="Python" /> Python | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" title="Linux" /> Linux | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" title="Git" /> Git   |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="40" title="Jupyter" /> Jupyter | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" width="40" title="Raspberry Pi" /> Raspberry Pi | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gitlab/gitlab-original.svg" width="40" title="GitLab" /> GitLab |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikit-learn/scikit-learn-original.svg" width="40" title="Scikit-learn" /> scikit-learn | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" width="40" title="Arduino" /> Arduino | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="40" title="GitHub" /> GitHub |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="40" title="TensorFlow" /> TensorFlow | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" title="C" /> C  | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" width="40" title="Google Cloud" /> Google Cloud |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="40" title="PyTorch" /> PyTorch | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" title="C++" /> C++ | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" width="40" title="AWS" /> AWS |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="40" title="NumPy" /> NumPy | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ros/ros-original.svg" width="40" title="ROS" /> ROS | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftazure/microsoftazure-original.svg" width="40" title="Azure" /> Azure |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg" width="40" title="MATLAB" /> MATLAB | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" width="40" title="OpenCV" /> OpenCV | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" title="Docker" /> Docker |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" title="MySQL" /> MySQL | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gazebo/gazebo-original.svg" width="40" title="Gazebo" /> Gazebo | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/powerbi/powerbi-original.svg" width="40" title="PowerBI" /> Power BI |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/seaborn/seaborn-original.svg" width="40" title="Seaborn" /> Seaborn |  | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tableau/tableau-original.svg" width="40" title="Tableau" /> Tableau |
 
-### Robotics & IoT  
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linux.svg" alt="Linux" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/raspberrypi.svg" alt="Raspberry Pi" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/arduino.svg" alt="Arduino" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/c.svg" alt="C" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cplusplus.svg" alt="C++" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/ros.svg" alt="ROS" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/opencv.svg" alt="OpenCV" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gazebo.svg" alt="Gazebo" width="40" height="40" />  
-</p>
-
-### DevOps & Misc  
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/git.svg" alt="Git" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gitlab.svg" alt="GitLab" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlecloud.svg" alt="Google Cloud" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftazure.svg" alt="Azure" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/powerbi.svg" alt="PowerBI" width="40" height="40" />  
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tableau.svg" alt="Tableau" width="40" height="40" />
-</p>
 
 ---
 
@@ -73,6 +49,7 @@
 ---
 
 *“Stay curious and keep coding!”*
+
 
 
 
