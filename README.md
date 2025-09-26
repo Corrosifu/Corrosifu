@@ -39,6 +39,10 @@
 
 - 💻**Spam Detection Methods History (2025)**  
   Conducted an extensive bibliographic review and experimental study on spam detection techniques. Developed optimized data preprocessing workflows using Python libraries such as NLTK and SpaCy to handle tokenization, lemmatization, and removal of stop words. Implemented a broad spectrum of detection methods from simple keyword-based heuristics to advanced machine learning models including Logistic Regression, K-Nearest Neighbors, Multinomial Naive Bayes, Random Forest, and XGBoost. Leveraged recent advances in deep learning by fine-tuning DistilBERT, a transformer-based model, to enhance classification performance. Achieved state-of-the-art accuracy and F1-scores, while conducting thorough error analysis to identify model biases and robustness against adversarial examples.
+  | Setup                | Accuracy | Precision | Recall | F1-Score |
+|----------------------|----------|-----------|--------|----------|
+| LLM with 1 feature   | 99.37%   | 0.9956    | 0.9934 | 0.9945   |
+| LLM with multiple features | 99.50%   | 0.9912    | 1.0    | 0.9956   |
 
 - 💻**Covid-19 Case Prediction and Survival Analysis (2024)**  
   Executed a comprehensive pipeline for cleaning, balancing, and feature engineering a Covid-19 patient dataset using SMOTE for synthetic sample generation to handle class imbalance. Applied multiple machine learning algorithms, including ensemble methods, to predict patient survival and case severity. Tuned model hyperparameters to optimize predictive performance according to critical metrics such as accuracy, precision, recall, and F1-score. Emphasized interpretability and clinical relevance in feature selection and model evaluation to aid decision-making for healthcare stakeholders.
@@ -60,6 +64,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
+
 
 
 
