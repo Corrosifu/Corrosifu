@@ -52,6 +52,10 @@
 
 - 💻[**Covid-19 Case Prediction and Survival Analysis (2024)**](https://github.com/Corrosifu/covid19_diagnosis/)
   Executed a comprehensive pipeline for cleaning, balancing, and feature engineering a Covid-19 patient dataset using SMOTE for synthetic sample generation to handle class imbalance. Applied multiple machine learning algorithms, including ensemble methods, to predict patient survival and case severity. Tuned model hyperparameters to optimize predictive performance according to critical metrics such as accuracy, precision, recall, and F1-score. Emphasized interpretability and clinical relevance in feature selection and model evaluation to aid decision-making for healthcare stakeholders.
+<img width="851" height="548" alt="image" src="https://github.com/user-attachments/assets/3482727e-e2c4-40bf-ba2a-e16742e63501" />
+<img width="1327" height="528" alt="image" src="https://github.com/user-attachments/assets/17141c37-d727-4d13-8478-8264dbae2e8b" />
+
+
 
 - 📚🤖**TurtleBot Autonomous Racing Project (2022)**  
   Designed and developed control algorithms for an autonomous TurtleBot capable of navigating race tracks with obstacle avoidance and trajectory tracking. Integrated multiple sensor inputs including LIDAR, RGB camera, and IMU within the Robot Operating System (ROS) framework. Employed Gazebo for realistic simulation testing. Applied computer vision techniques, including OpenCV for target color detection and image processing. Tuned PID controllers to optimize robot motion stability and speed while avoiding collisions on complex racecourse layouts.
@@ -70,6 +74,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
+
 
 
 
