@@ -27,7 +27,7 @@
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" title="NumPy" /> NumPy | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ros/ros-original.svg" width="40" title="ROS" /> ROS |<img src="https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png" width="40" title="PowerBI" /> Power BI |
 | <img src="https://miro.medium.com/v2/resize:fit:419/0*Ws17TOkgJI7ie8yi.png" width="40" title="Seaborn" /> Seaborn | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="40" title="OpenCV" /> OpenCV | 
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg" width="40" title="MATLAB" /> MATLAB | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gazebo/gazebo-original.svg" width="40" title="Gazebo" /> Gazebo | 
-| <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/SolidWorks_Logo.svg" width="40" title="MySQL" /> MySQL |<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" title="SolidWorks" /> SolidWorks | |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" title="MySQL" /> MySQL |<img src="https://upload.wikimedia.org/wikipedia/en/d/d2/SolidWorks_Logo.svg" width="40" title="SolidWorks" /> SolidWorks | |
 
 ---
 
@@ -49,6 +49,7 @@
 ---
 
 *“Stay curious and keep coding!”*
+
 
 
 
