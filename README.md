@@ -35,20 +35,24 @@
 - 📚 **[Educational Project]** — Course or case study example
 - 🔒 **[Private or Client Project]** — Brief explanation without public code
 
-- 💻 **Spam Detection Methods History (2025)**  
-  Conducted a bibliographic study and data analysis on spam detection methods. Developed preprocessing pipelines using Python (NLTK, SpaCy) and implemented various detection techniques ranging from keyword heuristics to machine learning (Logistic Regression, KNN, Naive Bayes, Random Forest, XGBoost) and deep learning approaches (fine-tuned DistilBERT). Achieved high accuracy and F1 scores, with analysis of model biases and effectiveness.
+## Projects
 
-- 💻**Covid-19 Case Prediction (2024)**  
-  Performed thorough data cleaning and rebalancing (SMOTE) to predict Covid-19 cases using multiple machine learning algorithms. Achieved 90% accuracy and 75% recall through advanced modeling and hyperparameter tuning, with focus on key metrics for clinical decision support.
+- 💻**Spam Detection Methods History (2025)**  
+  Conducted an extensive bibliographic review and experimental study on spam detection techniques. Developed optimized data preprocessing workflows using Python libraries such as NLTK and SpaCy to handle tokenization, lemmatization, and removal of stop words. Implemented a broad spectrum of detection methods from simple keyword-based heuristics to advanced machine learning models including Logistic Regression, K-Nearest Neighbors, Multinomial Naive Bayes, Random Forest, and XGBoost. Leveraged recent advances in deep learning by fine-tuning DistilBERT, a transformer-based model, to enhance classification performance. Achieved state-of-the-art accuracy and F1-scores, while conducting thorough error analysis to identify model biases and robustness against adversarial examples.
 
-- 🤖**TurtleBot Autorace (2022)**  
-  Developed autonomous robot navigation, obstacle avoidance, and trajectory tracking algorithms. Integrated multiple sensors (LIDAR, camera) with ROS and Gazebo for simulation, and OpenCV for image processing.
+- 💻**Covid-19 Case Prediction and Survival Analysis (2024)**  
+  Executed a comprehensive pipeline for cleaning, balancing, and feature engineering a Covid-19 patient dataset using SMOTE for synthetic sample generation to handle class imbalance. Applied multiple machine learning algorithms, including ensemble methods, to predict patient survival and case severity. Tuned model hyperparameters to optimize predictive performance according to critical metrics such as accuracy, precision, recall, and F1-score. Emphasized interpretability and clinical relevance in feature selection and model evaluation to aid decision-making for healthcare stakeholders.
 
-- 🔒**Sales Forecasting at Jaeger-LeCoultre (2023)**  
-  Built predictive sales models with Python and machine learning frameworks on large SQL and BigQuery datasets. Delivered improved prediction accuracy (85% wMAPE) over supply chain benchmarks and visually communicated results for informed decision-making.
+- 📚🤖**TurtleBot Autonomous Racing Project (2022)**  
+  Designed and developed control algorithms for an autonomous TurtleBot capable of navigating race tracks with obstacle avoidance and trajectory tracking. Integrated multiple sensor inputs including LIDAR, RGB camera, and IMU within the Robot Operating System (ROS) framework. Employed Gazebo for realistic simulation testing. Applied computer vision techniques, including OpenCV for target color detection and image processing. Tuned PID controllers to optimize robot motion stability and speed while avoiding collisions on complex racecourse layouts.
 
-- 🔒**Model-Based Reinforcement Learning Research (2022)**  
-  Researched and implemented model-based reinforcement learning algorithms using Python with Gym environment. Applied deep reinforcement learning techniques (DDPG, DQN) to autonomous parking problems, with focus on model optimization and simulation.
+- 🔒**Sales Forecasting for Jaeger-LeCoultre (2023)**  
+  Led data-driven forecasting initiatives by building predictive models for sales planning and supply chain optimization at Jaeger-LeCoultre. Processed and analyzed large-scale datasets stored on SQL Server and Google BigQuery. Implemented machine learning pipelines using Python to predict monthly sales volumes, achieving a weighted Mean Absolute Percentage Error (wMAPE) outperforming prior benchmarks. Communicated results and insights through data visualization dashboards using PowerBI to support operational decisions and inventory management.
+
+- 🔒**Reinforcement Learning for Autonomous Parking (2022)**  
+  Conducted exploratory research on model-based reinforcement learning approaches applying Deep Deterministic Policy Gradient (DDPG) and Deep Q-Networks (DQN) to an autonomous parking task. Created simulation environments using OpenAI Gym and custom Gazebo models to train and evaluate policies. Focused on improving sample efficiency and balancing exploration-exploitation trade-offs with optimized neural network architectures and reward shaping techniques.
+
+
 ---
 
 
@@ -56,6 +60,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
+
 
 
 
