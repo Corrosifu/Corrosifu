@@ -22,9 +22,9 @@
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="40" title="TensorFlow" /> TensorFlow | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" title="C" /> C  | <img src="https://pixelbag.net/wp-content/uploads/2021/12/AWS-Logo-svg.jpg" width="40" title="AWS" /> AWS |
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="40" title="PyTorch" /> PyTorch | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" title="C++" /> C++ | <img src="https://download.logo.wine/logo/Microsoft_Azure/Microsoft_Azure-Logo.wine.png" width="40" title="Azure" /> Azure |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" title="NumPy" /> NumPy | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ros/ros-original.svg" width="40" title="ROS" /> ROS |<img src="https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png" width="40" title="PowerBI" /> Power BI |
-| <img src="https://miro.medium.com/v2/resize:fit:419/0*Ws17TOkgJI7ie8yi.png" width="40" title="Seaborn" /> Seaborn | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="40" title="OpenCV" /> OpenCV | 
+| <img src="https://miro.medium.com/v2/resize:fit:419/0*Ws17TOkgJI7ie8yi.png" width="40" title="Seaborn" /> Seaborn | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="40" title="OpenCV" /> OpenCV | <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" width="40" title="Excel" /> Excel|
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg" width="40" title="MATLAB" /> MATLAB | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gazebo/gazebo-original.svg" width="40" title="Gazebo" /> Gazebo | 
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" title="MySQL" /> MySQL |<img src="https://upload.wikimedia.org/wikipedia/en/d/d2/SolidWorks_Logo.svg" width="40" title="SolidWorks" /> SolidWorks | |
+| <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="40" title="SQLServer" /> SQLServer |<img src="https://upload.wikimedia.org/wikipedia/en/d/d2/SolidWorks_Logo.svg" width="40" title="SolidWorks" /> SolidWorks | |
 
 ---
 
@@ -46,6 +46,7 @@
 ---
 
 *“Stay curious and keep coding!”*
+
 
 
 
