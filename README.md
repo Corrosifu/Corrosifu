@@ -1,5 +1,6 @@
 
 
+<img width="1080" height="1080" alt="White Pink boho Background Instagram Post" src="https://github.com/user-attachments/assets/222b2981-c893-4e41-af14-deff753f39ba" />
 
 
 # Hello 🖐️ , I’m Bilal Bounadja, welcome to my portfolio, if you have any questions feel free to contact me.
@@ -69,6 +70,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
+
 
 
 
