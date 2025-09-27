@@ -1,4 +1,4 @@
-![Bilal bounadja_page-0001](https://github.com/user-attachments/assets/5b48aa7b-238f-46ae-9d72-722a23f2fe41)
+![Bilal bounadja_page-0001](img/Bilal bounadja_page-0001.jpg)
 
 
 
@@ -73,6 +73,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
+
 
 
 
