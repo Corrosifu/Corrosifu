@@ -77,7 +77,9 @@
 
 
 
-![Visitor Count](https://profile-counter.glitch.me/Corrosifu/count.svg)
+
+![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
