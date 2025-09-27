@@ -47,6 +47,7 @@
   |----------------------|----------|-----------|--------|----------|
   | LLM with 1 feature   | 99.37%   | 0.9956    | 0.9934 | 0.9945   |
   | LLM with multiple features | 99.50%   | 0.9912    | 1.0    | 0.9956   |
+  
   ![Confusion Matrix](img/33f64031-1651-4904-9425-e7e4b1f67a8d.png)
 
 - 💻[**Covid-19 Case Prediction and Survival Analysis (2024)**](https://github.com/Corrosifu/covid19_diagnosis/)
@@ -73,6 +74,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
+
 
 
 
