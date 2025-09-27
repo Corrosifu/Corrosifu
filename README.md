@@ -47,11 +47,12 @@
   |----------------------|----------|-----------|--------|----------|
   | LLM with 1 feature   | 99.37%   | 0.9956    | 0.9934 | 0.9945   |
   | LLM with multiple features | 99.50%   | 0.9912    | 1.0    | 0.9956   |
+  ![Confusion Matrix](img/33f64031-1651-4904-9425-e7e4b1f67a8d.png)
 
 - 💻[**Covid-19 Case Prediction and Survival Analysis (2024)**](https://github.com/Corrosifu/covid19_diagnosis/)
   Executed a comprehensive pipeline for cleaning, balancing, and feature engineering a Covid-19 patient dataset using SMOTE for synthetic sample generation to handle class imbalance. Applied multiple machine learning algorithms, including ensemble methods, to predict patient survival and case severity. Tuned model hyperparameters to optimize predictive performance according to critical metrics such as accuracy, precision, recall, and F1-score. Emphasized interpretability and clinical relevance in feature selection and model evaluation to aid decision-making for healthcare stakeholders.
-  <img width="851" height="548" alt="image" src="https://github.com/user-attachments/assets/3482727e-e2c4-40bf-ba2a-e16742e63501" />
-  <img width="1327" height="528" alt="image" src="https://github.com/user-attachments/assets/17141c37-d727-4d13-8478-8264dbae2e8b" />
+  <img width="851" height="548" alt="image" src="img/ababb14d-e8dd-425d-a170-81f3f12b3e43.png" />
+  <img width="1327" height="528" alt="image" src="img/427738ef-56e7-4109-bf63-480c22890a7a.png" />
 
 
 
@@ -72,6 +73,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
+
 
 
 
