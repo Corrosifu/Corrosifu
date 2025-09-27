@@ -1,5 +1,4 @@
-![Bilal Bounadja](https://raw.githubusercontent.com/Corrosifu/Corrosifu/blob/main/img/Bilal%20bounadja_page-0001.jpg)
-
+![Bilal Bounadja](img/Bilal_bounadja_page-0001.jpg)
 
 
 # Hello 🖐️ , I’m Bilal Bounadja, welcome to my portfolio, if you have any questions feel free to contact me.
@@ -73,6 +72,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
+
 
 
 
