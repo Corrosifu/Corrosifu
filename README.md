@@ -37,7 +37,6 @@
 ## Projects
 
 - 💻[**Spam Detection Methods History (2025)**](https://github.com/Corrosifu/Spam_Detection/) 
-### Spam Detection Project Summary
 
 #### Context & Goal
 Developed a comprehensive spam detection system to classify emails/messages as spam or ham. The project explored both historical methods and modern machine learning techniques to improve detection accuracy and robustness.
@@ -66,7 +65,6 @@ For full technical details and code, please refer to the project repository.
   ![Confusion Matrix](img/33f64031-1651-4904-9425-e7e4b1f67a8d.png)
 
 - 💻[**Covid-19 Case Prediction and Survival Analysis (2024)**](https://github.com/Corrosifu/covid19_diagnosis/)
-### COVID-19 Diagnosis and Clinical Spectrum
 
 #### Context & Goal
 
@@ -104,16 +102,49 @@ For complete details, preprocessing methods, model code, and visualizations, ple
 
 
 
-- 📚🤖**TurtleBot Autonomous Racing Project (2022)**  
-  Designed and developed control algorithms for an autonomous TurtleBot capable of navigating race tracks with obstacle avoidance and trajectory tracking. Integrated multiple sensor inputs including LIDAR, RGB camera, and IMU within the Robot Operating System (ROS) framework. Employed Gazebo for realistic simulation testing. Applied computer vision techniques, including OpenCV for target color detection and image processing. Tuned PID controllers to optimize robot motion stability and speed while avoiding collisions on complex racecourse layouts.
+
 
 - 🔒**Sales Forecasting for Jaeger-LeCoultre (2023)**  
-  Led data-driven forecasting initiatives by building predictive models for sales planning and supply chain optimization at Jaeger-LeCoultre. Processed and analyzed large-scale datasets stored on SQL Server and Google BigQuery. Implemented machine learning pipelines using Python to predict monthly sales volumes, achieving a weighted Mean Absolute Percentage Error (wMAPE) outperforming prior benchmarks. Communicated results and insights through data visualization dashboards using PowerBI to support operational decisions and inventory management.
+#### Context / Job Goal
+
+This internship was conducted at Jaeger-LeCoultre as part of the final year of the Master in Artificial Intelligence and Robotics. The objective was to leverage data science and machine learning techniques to optimize supply chain forecasting and enhance predictive accuracy of product demand.
+
+#### Methodology
+
+- Performed technological watch to analyze emerging trends and innovations to align strategic objectives.  
+- Collaborated closely with various business units to identify relevant use cases, select key performance indicators (KPIs), and evaluate classical prediction tool performance.  
+- Processed complex, multi-source datasets by grouping, sorting, and merging tables using BigQuery (Google Cloud Platform) and SQL Server for efficient data exploitation.  
+- Developed predictive models using Python libraries such as Pandas, Seaborn for statistical analysis, and applied machine learning methods including LSTM, XGBoost, and Random Forest for time series modeling and forecasting.
+
+### Results
+
+- Achieved a weighted Mean Absolute Percentage Error (wMAPE) of 85% using XGBoost.  
+- Improved prediction wMape by over 45% when compared to classical supply chain estimation methods.  
+- Conducted thorough model evaluation adapting machine learning outcomes to operational performance needs.
+
 
 - 🔒**Reinforcement Learning for Autonomous Parking (2022)**  
-  Conducted exploratory research on model-based reinforcement learning approaches applying Deep Deterministic Policy Gradient (DDPG) and Deep Q-Networks (DQN) to an autonomous parking task. Created simulation environments using OpenAI Gym and custom Gazebo models to train and evaluate policies. Focused on improving sample efficiency and balancing exploration-exploitation trade-offs with optimized neural network architectures and reward shaping techniques.
+#### Context / Job Goal
+
+This research internship at Sorbonne Université focused on model-based reinforcement learning with the aim to deepen understanding of advanced RL techniques and their applications to autonomous system control. The project targeted solving real-world control problems by implementing and optimizing reinforcement learning algorithms.
+
+#### Methodology
+
+- Conducted an extensive literature review to establish the state of the art in model-based reinforcement learning.  
+- Implemented a bicycle dynamic model simulating an autonomous parking problem within the HighwayEnv environment from OpenAI Gym, coded in Python.  
+- Applied advanced reinforcement learning algorithms including Linear Quadratic Regulator (LQR) control, Deep Deterministic Policy Gradient (DDPG), and Deep Q-Networks (DQN) for policy optimization and control.  
+- Performed iterative model tuning and evaluation to improve autonomous system performance in simulated scenarios.
+
+#### Results
+
+- Successfully demonstrated autonomous parking task completion using both classical control (LQR) and deep reinforcement learning techniques (DDPG, DQN).  
+- Validated the reinforcement learning framework’s effectiveness on a realistic control environment, highlighting strengths and limitations of each algorithm.  
+- Provided groundwork for further research and development in applying reinforcement learning to complex robotic control tasks.
 
 
+
+- 🤖**TurtleBot Autonomous Racing Project (2022)**  
+  Designed and developed control algorithms for an autonomous TurtleBot capable of navigating race tracks with obstacle avoidance and trajectory tracking. Integrated multiple sensor inputs including LIDAR, RGB camera, and IMU within the Robot Operating System (ROS) framework. Employed Gazebo for realistic simulation testing. Applied computer vision techniques, including OpenCV for target color detection and image processing. Tuned PID controllers to optimize robot motion stability and speed while avoiding collisions on complex racecourse layouts.
 ---
 
 
@@ -126,6 +157,7 @@ For complete details, preprocessing methods, model code, and visualizations, ple
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
