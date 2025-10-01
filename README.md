@@ -57,7 +57,7 @@ Developed a comprehensive spam detection system to classify emails/messages as s
 | Random Forest        | 98.5%               | 0.98                | 99.1%                        | 0.99                         |
 | XGBoost              | 98.1%               | 0.98                | 98.1%                        | 0.98                         |
 
-DistilBERT fine-tuning achieved near-perfect F1 scores (~99.5%), outperforming traditional methods but requiring greater computational resources.
+DistilBERT fine-tuning achieved near-perfect F1 scores (**~99.5%**), outperforming traditional methods but requiring greater computational resources.
 
 ---
 
@@ -95,6 +95,7 @@ For full technical details and code, please refer to the project repository.
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
