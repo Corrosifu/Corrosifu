@@ -3,7 +3,7 @@
 
 # Hello 🖐️ , I’m Bilal Bounadja, welcome to my portfolio, if you have any questions feel free to contact me.
 
-👨‍💻 Data Scientist | AI Engineer | Curious.
+👨‍💻 Data Scientist.
 
 ---
 
@@ -76,6 +76,7 @@
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
