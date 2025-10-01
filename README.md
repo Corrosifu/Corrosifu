@@ -30,10 +30,9 @@
 
 ## Projects
 
-- 💻 **[Project Name 1]** — Data Science personnal projects
-- 🤖 **[Project Name 2]** — Robotics and IoT projects
-- 📚 **[Educational Project]** — Course or case study example
-- 🔒 **[Private or Client Project]** — Brief explanation without public code
+- 💻  Data Science personnal projects
+- 🤖  Robotics and IoT projects
+- 🔒  Brief explanation without public code
 
 ## Projects
 
@@ -96,6 +95,7 @@ For full technical details and code, please refer to the project repository.
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
