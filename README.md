@@ -38,18 +38,18 @@
 ## Projects
 
 - 💻[**Spam Detection Methods History (2025)**](https://github.com/Corrosifu/Spam_Detection/) 
-# Spam Detection Project Summary
+### Spam Detection Project Summary
 
-## Context & Goal
+#### Context & Goal
 Developed a comprehensive spam detection system to classify emails/messages as spam or ham. The project explored both historical methods and modern machine learning techniques to improve detection accuracy and robustness.
 
-## Methodology
+#### Methodology
 - Used datasets such as CEAS-08 and Kaggle samples.  
 - Applied advanced text preprocessing: tokenization, lemmatization, and stop-word removal with Python libraries.  
 - Compared multiple classifiers—from heuristic filters and Naive Bayes to Random Forest and XGBoost.  
 - Fine-tuned a transformer-based DistilBERT model for state-of-the-art classification.
 
-## Results
+#### Results
 
 | Model                | Accuracy (Text Only) | F1-Score (Text Only) | Accuracy (Multiple Features) | F1-Score (Multiple Features) |
 |----------------------|---------------------|---------------------|------------------------------|------------------------------|
@@ -96,6 +96,7 @@ For full technical details and code, please refer to the project repository.
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
