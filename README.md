@@ -35,7 +35,7 @@
 - 🔒  Brief explanation without public code
 
 
-💻[**Spam Detection Methods History (2025)**](https://github.com/Corrosifu/Spam_Detection/) 
+### 💻[**Spam Detection Methods History (2025)**](https://github.com/Corrosifu/Spam_Detection/) 
 
 #### Context & Goal
 Developed a comprehensive spam detection system to classify emails/messages as spam or ham. The project explored both historical methods and modern machine learning techniques to improve detection accuracy and robustness.
@@ -63,7 +63,7 @@ For full technical details and code, please refer to the project repository.
   
   ![Confusion Matrix](img/33f64031-1651-4904-9425-e7e4b1f67a8d.png)
 
-💻[**Covid-19 Case Prediction and Survival Analysis (2024)**](https://github.com/Corrosifu/covid19_diagnosis/)
+### 💻[**Covid-19 Case Prediction and Survival Analysis (2024)**](https://github.com/Corrosifu/covid19_diagnosis/)
 
 #### Context & Goal
 
@@ -103,7 +103,7 @@ For complete details, preprocessing methods, model code, and visualizations, ple
 
 
 
-🔒**Sales Forecasting for Jaeger-LeCoultre (2023)**  
+### 🔒**Sales Forecasting for Jaeger-LeCoultre (2023)**  
 #### Context / Job Goal
 
 This internship was conducted at Jaeger-LeCoultre as part of the final year of the Master in Artificial Intelligence and Robotics. The objective was to leverage data science and machine learning techniques to optimize supply chain forecasting and enhance predictive accuracy of product demand.
@@ -122,7 +122,7 @@ This internship was conducted at Jaeger-LeCoultre as part of the final year of t
 - Conducted thorough model evaluation adapting machine learning outcomes to operational performance needs.
 
 
-🔒**Reinforcement Learning for Autonomous Parking (2022)**  
+### 🔒**Reinforcement Learning for Autonomous Parking (2022)**  
 #### Context / Job Goal
 
 This research internship at Sorbonne Université focused on model-based reinforcement learning with the aim to deepen understanding of advanced RL techniques and their applications to autonomous system control. The project targeted solving real-world control problems by implementing and optimizing reinforcement learning algorithms.
@@ -142,9 +142,10 @@ This research internship at Sorbonne Université focused on model-based reinforc
 
 
 
-🤖**TurtleBot Autonomous Racing Project (2022)**  
+### 🤖**TurtleBot Autonomous Racing Project (2022)**  
 
   Designed and developed control algorithms for an autonomous TurtleBot capable of navigating race tracks with obstacle avoidance and trajectory tracking. Integrated multiple sensor inputs including LIDAR, RGB camera, and IMU within the Robot Operating System (ROS) framework. Employed Gazebo for realistic simulation testing. Applied computer vision techniques, including OpenCV for target color detection and image processing. Tuned PID controllers to optimize robot motion stability and speed while avoiding collisions on complex racecourse layouts.
+  
 ---
 
 
@@ -157,6 +158,7 @@ This research internship at Sorbonne Université focused on model-based reinforc
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
