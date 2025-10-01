@@ -66,13 +66,13 @@ For full technical details and code, please refer to the project repository.
   ![Confusion Matrix](img/33f64031-1651-4904-9425-e7e4b1f67a8d.png)
 
 - 💻[**Covid-19 Case Prediction and Survival Analysis (2024)**](https://github.com/Corrosifu/covid19_diagnosis/)
-# COVID-19 Diagnosis and Clinical Spectrum
+### COVID-19 Diagnosis and Clinical Spectrum
 
-## Context / Job Goal
+#### Context & Goal
 
 The project addresses the urgent challenge of detecting COVID-19 positive cases from clinical laboratory data collected during the pandemic at Hospital Israelita Albert Einstein, São Paulo, Brazil. The aim is to develop accurate and reliable machine learning models that help identify COVID-19 infections based on routine lab tests, under constraints of limited testing capacity and incomplete data.
 
-## Methodology
+#### Methodology
 
 - **Dataset:** Anonymized patient data including SARS-CoV-2 RT-PCR results and various laboratory tests, standardized and cleaned.  
 - **Handling Missing Data:** Columns with more than 90% missing values were removed. Missing values were imputed by feature-wise means, and new indicators such as "has_disease" were created to improve completeness.  
@@ -81,7 +81,7 @@ The project addresses the urgent challenge of detecting COVID-19 positive cases 
 - **Models Evaluated:** Classical machine learning algorithms including Random Forest, SVM, XGBoost, KNN, Logistic Regression, and ensembles.  
 - **Evaluation Metrics:** Focused on Accuracy and Recall to balance overall correctness and sensitivity to true COVID positives.
 
-## Results
+#### Results
 
 | Metric         | Score  |
 |----------------|--------|
@@ -127,6 +127,7 @@ For complete details, preprocessing methods, model code, and visualizations, ple
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
