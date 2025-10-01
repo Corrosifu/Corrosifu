@@ -24,8 +24,7 @@
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="40" title="PyTorch" /> PyTorch               | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ros/ros-original.svg" width="40" title="ROS" /> ROS                            | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40" title="Google Cloud" /> Google Cloud       |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="40" title="Scikit-learn" /> scikit-learn         | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" title="C" /> C                                    | <img src="https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png" width="40" title="PowerBI" /> Power BI                     |
 | <img src="https://miro.medium.com/v2/resize:fit:419/0*Ws17TOkgJI7ie8yi.png" width="40" title="Seaborn" /> Seaborn                                       | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gazebo/gazebo-original.svg" width="40" title="Gazebo" /> Gazebo                | <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" width="40" title="Excel" /> Excel |
-| <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="40" title="SQLServer" /> SQLServer                                  | <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/SolidWorks_Logo.svg" width="40" title="SolidWorks" /> SolidWorks                                | <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg" width="40" title="PowerPoint" /> PowerPoint |
-|                                                                                                                     |                                                                                                    | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/2560px-LaTeX_logo.svg.png" width="40" title="LaTeX" /> LateX         |
+| <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="40" title="SQLServer" /> SQLServer                                  | <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/SolidWorks_Logo.svg" width="40" title="SolidWorks" /> SolidWorks                                |<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/2560px-LaTeX_logo.svg.png" width="40" title="LaTeX" /> LateX  |
 
 ---
 
@@ -77,6 +76,7 @@
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
