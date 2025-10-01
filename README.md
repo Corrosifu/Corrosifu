@@ -38,12 +38,32 @@
 ## Projects
 
 - 💻[**Spam Detection Methods History (2025)**](https://github.com/Corrosifu/Spam_Detection/) 
-  Conducted an extensive bibliographic review and experimental study on spam detection techniques. Developed optimized data preprocessing workflows using Python libraries such as NLTK and SpaCy to handle tokenization, lemmatization, and removal of stop words. Implemented a broad spectrum of detection methods from simple keyword-based heuristics to advanced machine learning models including Logistic Regression, K-Nearest Neighbors, Multinomial Naive Bayes, Random Forest, and XGBoost. Leveraged recent advances in deep learning by fine-tuning DistilBERT, a transformer-based model, to enhance classification performance. Achieved state-of-the-art accuracy and F1-scores, while conducting thorough error analysis to identify model biases and robustness against adversarial examples.
-  
-  | Setup                | Accuracy | Precision | Recall | F1-Score |
-  |----------------------|----------|-----------|--------|----------|
-  | LLM with 1 feature   | 99.37%   | 0.9956    | 0.9934 | 0.9945   |
-  | LLM with multiple features | 99.50%   | 0.9912    | 1.0    | 0.9956   |
+# Spam Detection Project Summary
+
+## Context & Goal
+Developed a comprehensive spam detection system to classify emails/messages as spam or ham. The project explored both historical methods and modern machine learning techniques to improve detection accuracy and robustness.
+
+## Methodology
+- Used datasets such as CEAS-08 and Kaggle samples.  
+- Applied advanced text preprocessing: tokenization, lemmatization, and stop-word removal with Python libraries.  
+- Compared multiple classifiers—from heuristic filters and Naive Bayes to Random Forest and XGBoost.  
+- Fine-tuned a transformer-based DistilBERT model for state-of-the-art classification.
+
+## Results
+
+| Model                | Accuracy (Text Only) | F1-Score (Text Only) | Accuracy (Multiple Features) | F1-Score (Multiple Features) |
+|----------------------|---------------------|---------------------|------------------------------|------------------------------|
+| KNN                  | 80.4%               | 0.80                | 75.9%                        | 0.76                         |
+| Logistic Regression   | 98.1%               | 0.98                | 97.4%                        | 0.97                         |
+| Random Forest        | 98.5%               | 0.98                | 99.1%                        | 0.99                         |
+| XGBoost              | 98.1%               | 0.98                | 98.1%                        | 0.98                         |
+
+DistilBERT fine-tuning achieved near-perfect F1 scores (~99.5%), outperforming traditional methods but requiring greater computational resources.
+
+---
+
+For full technical details and code, please refer to the project repository.
+
   
   ![Confusion Matrix](img/33f64031-1651-4904-9425-e7e4b1f67a8d.png)
 
@@ -76,6 +96,7 @@
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
