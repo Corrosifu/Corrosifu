@@ -98,7 +98,6 @@ The project addresses the urgent challenge of detecting COVID-19 positive cases 
 
 For complete details, preprocessing methods, model code, and visualizations, please visit the project repository.
 
-[Project Dataset on Kaggle](https://www.kaggle.com/datasets/einsteindata4u/covid19/data)
 
   <img width="851" height="548" alt="image" src="img/ababb14d-e8dd-425d-a170-81f3f12b3e43.png" />
   <img width="1327" height="528" alt="image" src="img/427738ef-56e7-4109-bf63-480c22890a7a.png" />
@@ -127,6 +126,7 @@ For complete details, preprocessing methods, model code, and visualizations, ple
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
