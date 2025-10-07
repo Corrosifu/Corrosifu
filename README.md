@@ -3,7 +3,7 @@
 
 # Hello 🖐️ , I’m Bilal Bounadja, welcome to my portfolio, if you have any questions feel free to contact me.
 
-👨‍💻 Data Scientist.
+👨‍💻 Data Scientist
 
 ---
 
@@ -158,6 +158,7 @@ This research internship at Sorbonne Université focused on model-based reinforc
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
