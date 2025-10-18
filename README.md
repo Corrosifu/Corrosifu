@@ -10,7 +10,7 @@
 ## About Me
 
 - 🎓 Master’s degree diploma in Robotics and AI (SAR), Sorbonne Université, graduated in 2023
-- 🌱 Passionate about Scientific Research, AI, Biology and Learning new stuff
+- 🌱 Passionate about Scientific Research, AI, Biology.
 - ⚡ Always curious and continuously learning new technologies and methodologies
 - 📫 Contact: [Bilal.bndj@gmail.com] | [LinkedIn](https://www.linkedin.com/in/bilal-bounadja-data/)
 ---
@@ -182,6 +182,7 @@ This research internship at Sorbonne Université focused on model-based reinforc
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
