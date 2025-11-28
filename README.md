@@ -148,7 +148,7 @@ This internship was conducted at Jaeger-LeCoultre as part of the final year of t
 
 
 ### 🔒**Reinforcement Learning for Autonomous Parking (2022)** 
-<img src="img/Logo_of_Sorbonne_University.svg.png" alt="Sorbonne" width="300" height="200">
+<img src="img/Logo_of_Sorbonne_University.svg.png" alt="Sorbonne" width="200" height="150">
 
 #### Context / Job Goal
 
@@ -185,6 +185,7 @@ This research internship at Sorbonne Université focused on model-based reinforc
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
