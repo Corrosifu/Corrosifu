@@ -128,6 +128,7 @@ For complete details, preprocessing methods, model code, and visualizations, ple
 
 
 ### 🔒**Sales Forecasting for Jaeger-LeCoultre (2023)**  
+  ![](img/jaeger-le-coultre-logo-png_seeklogo-74731-removebg-preview.png)
 #### Context / Job Goal
 
 This internship was conducted at Jaeger-LeCoultre as part of the final year of the Master in Artificial Intelligence and Robotics. The objective was to leverage data science and machine learning techniques to optimize supply chain forecasting and enhance predictive accuracy of product demand.
@@ -146,7 +147,8 @@ This internship was conducted at Jaeger-LeCoultre as part of the final year of t
 - Conducted thorough model evaluation adapting machine learning outcomes to operational performance needs.
 
 
-### 🔒**Reinforcement Learning for Autonomous Parking (2022)**  
+### 🔒**Reinforcement Learning for Autonomous Parking (2022)** 
+  ![](img/Logo_of_Sorbonne_University.svg.png)
 #### Context / Job Goal
 
 This research internship at Sorbonne Université focused on model-based reinforcement learning with the aim to deepen understanding of advanced RL techniques and their applications to autonomous system control. The project targeted solving real-world control problems by implementing and optimizing reinforcement learning algorithms.
@@ -182,6 +184,7 @@ This research internship at Sorbonne Université focused on model-based reinforc
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
