@@ -147,8 +147,8 @@ This internship was conducted at Jaeger-LeCoultre as part of the final year of t
 - Conducted thorough model evaluation adapting machine learning outcomes to operational performance needs.
 
 
-### 🔒**Reinforcement Learning for Autonomous Parking (2022)** 
-  ![](img/Logo_of_Sorbonne_University.svg.png)
+### 🔒**Reinforcement Learning for Autonomous Parking (2022)** ![](img/Logo_of_Sorbonne_University.svg.png)(width=100)
+  
 #### Context / Job Goal
 
 This research internship at Sorbonne Université focused on model-based reinforcement learning with the aim to deepen understanding of advanced RL techniques and their applications to autonomous system control. The project targeted solving real-world control problems by implementing and optimizing reinforcement learning algorithms.
@@ -184,6 +184,7 @@ This research internship at Sorbonne Université focused on model-based reinforc
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
