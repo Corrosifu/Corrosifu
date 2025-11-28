@@ -129,6 +129,8 @@ For complete details, preprocessing methods, model code, and visualizations, ple
 
 
 ### 🔒**Sales Forecasting for Jaeger-LeCoultre (2023)**  
+
+<img src="img/jaeger-le-coultre-logo-png_seeklogo-74731-removebg-preview.png" alt="Jaeger" width="200" height="150">
 #### Context / Job Goal
 
 This internship was conducted at Jaeger-LeCoultre as part of the final year of the Master in Artificial Intelligence and Robotics. The objective was to leverage data science and machine learning techniques to optimize supply chain forecasting and enhance predictive accuracy of product demand.
@@ -185,6 +187,7 @@ This research internship at Sorbonne Université focused on model-based reinforc
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
