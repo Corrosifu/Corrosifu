@@ -53,7 +53,7 @@ The goal was to automate the retrieval, structuring, and synthesis of research p
 - Delivered a **fully functional RAG system** capable of sourcing, indexing, and generating responses from scientific literature.  
 - Achieved **low-latency retrieval (~2 s/query on CPU)** and consistent, context-aware generation.  
 - Demonstrated a reproducible end-to-end **explainable AI architecture** for research exploration and educational use.
-
+  ![UI](img/streamlitui.png)
 ---
 
 For full technical documentation, architecture overview, and complete source code, visit the [project repository](https://github.com/Corrosifu/RAG_Fact_Checking).
@@ -182,6 +182,7 @@ This research internship at Sorbonne Université focused on model-based reinforc
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
+
 
 
 
