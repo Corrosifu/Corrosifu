@@ -1,243 +1,125 @@
-![Bilal Bounadja](img/Bilal_bounadja_page-0001.jpg)
+<div align="center">
 
+# Bilal Bounadja
 
-# Hello 🖐️ , I’m Bilal Bounadja, welcome to my portfolio, if you have any questions feel free to contact me.
+**ML / AI Engineer · NLP & RAG · Data Scientist**
 
-👨‍💻 Data Scientist
+MSc Robotics & AI — Sorbonne Université (2023)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)
+[![Email](https://img.shields.io/badge/Contact-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
+
+</div>
+
+I build machine-learning systems end to end — from data and models to evaluation, APIs and tests — with a focus on **language models, retrieval and trustworthy answers**. I care about measuring what works: baselines, honest metrics and documented limitations.
 
 ---
 
-## About Me
+## Featured projects
 
-- 🎓 Master’s degree diploma in Robotics and AI (SAR), Sorbonne Université, graduated in 2023
-- 🌱 Passionate about Scientific Research, AI, Biology.
-- ⚡ Always curious and continuously learning new technologies and methodologies
-- 📫 Contact: [Bilal.bndj@gmail.com] | [LinkedIn](https://www.linkedin.com/in/bilal-bounadja-data/)
+| Project | What it shows | Stack |
+|---|---|---|
+| [**RAG Fact-Checking**](https://github.com/Corrosifu/RAG_Fact_Checking) (2025) | Retrieval-augmented QA over arXiv papers that **checks its own answers** against the sources; runs on CPU | Python · BM25 + dense retrieval · NLI · FastAPI · Streamlit · Docker · pytest · CI |
+| [**Spam Detection: from heuristics to transformers**](https://github.com/Corrosifu/Spam_Detection) (2025) | Heuristic, Bayesian, classical-ML and transformer methods compared on CEAS-08, up to fine-tuned DistilBERT | scikit-learn · XGBoost · Hugging Face Transformers |
+| [**COVID-19 case prediction**](https://github.com/Corrosifu/covid19_diagnosis) (2024) | Tabular ML on incomplete clinical data: imputation, SMOTE, recall-oriented evaluation | pandas · scikit-learn · XGBoost |
+| [**Adversarial examples (paper reproduction)**](https://github.com/Corrosifu/Projet_MLA) (2025) | Re-implementation of Goodfellow et al. (FGSM) and a robustness comparison, with the parts that did not work documented | TensorFlow / Keras |
+
+---
+
+## RAG Fact-Checking — flagship project
+
+**Problem.** Small local language models write fluent answers that are sometimes not backed by their sources. This system answers questions about scientific papers *and* tells you which sentences of the answer are confirmed by the evidence.
+
+**How it works**
+- **Ingestion:** arXiv API → documents → word-window chunks.
+- **Hybrid retrieval:** BM25 + dense embeddings, fused with Reciprocal Rank Fusion; optional cross-encoder reranking.
+- **Generation:** extractive fallback (no model) or a small local LLM (Qwen2.5-0.5B) on CPU.
+- **Verification:** an NLI model checks each sentence of the answer, and any user claim, against short evidence windows; it returns the exact supporting or contradicting sentences. Conflicting evidence yields *not enough info* instead of a guess.
+- **Engineering:** installable package, CLI, FastAPI service, Streamlit UI, Docker, **118 tests**, linting and CI.
+
+**What I learned by testing on real papers** (and fixed)
+- Feeding whole PDF chunks to the NLI model produced confident wrong verdicts (a true claim refuted at 84 %); switching to sentence-level evidence windows removed them.
+- On a 0.5B generator, the verifier flagged 5 of 6 sentences of a partly invented answer and confirmed 2 of 2 sentences of a faithful one.
+- Limits are documented in the repo: small hand-checked samples, not a benchmark. Next step: evaluate on a public scientific claim-verification dataset.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Corrosifu/RAG_Fact_Checking/main/img/ui-factcheck-supported.png" alt="Fact-check result with evidence sentences" width="380">
+  <img src="https://raw.githubusercontent.com/Corrosifu/RAG_Fact_Checking/main/img/ui-verify-flagged.png" alt="Generated answer with sentences flagged as not confirmed by the sources" width="380">
+</p>
+
+---
+
+## Other projects
+
+### Spam detection — from heuristics to DistilBERT (2025)
+Compared frequency heuristics, Naive Bayes, KNN, logistic regression, random forest, XGBoost and a fine-tuned DistilBERT on a 4,000-email sample of CEAS-08 (single 80/20 split, F1 as the main metric).
+
+| Model | F1 (text only) | F1 (text + extra features) |
+|---|---|---|
+| KNN | 0.80 | 0.76 |
+| Logistic regression | 0.98 | 0.97 |
+| Random forest | 0.98 | 0.99 |
+| XGBoost | 0.98 | 0.98 |
+| DistilBERT (fine-tuned) | 0.995 | 0.996 |
+
+<p align="center">
+  <img src="img/spam-confusion-matrix.png" alt="Confusion matrix of the DistilBERT model: 344 and 452 correct, 4 false positives, 0 false negatives" width="420">
+</p>
+
+Confusion matrix of the DistilBERT model (text + extra features) on 800 test emails: no spam missed, 4 legitimate emails flagged.
+
+Fine-tuned DistilBERT is the most accurate but the most expensive to train and serve. Caveat documented in the repo: it starts from a checkpoint already tuned on spam data, and the scores come from a single split.
+
+### COVID-19 case prediction from routine lab tests (2024)
+Predicted RT-PCR positivity from laboratory results of the Hospital Israelita Albert Einstein dataset: dropped columns with over 90 % missing values, imputed the rest, rebalanced the classes with SMOTE, and compared Random Forest, SVM, XGBoost, KNN, logistic regression and stacking.
+
+| Accuracy | Recall | AUC | KS |
+|---|---|---|---|
+| 0.909 | 0.706 | 0.824 | 0.648 |
+
+<p align="center">
+  <img src="img/covid-feature-importance.png" alt="Feature importance of the tree-based model; the engineered has_disease feature ranks first" width="520">
+</p>
+
+Limits: small test set, heavy missingness, no external validation.
+
+### Adversarial examples — reproducing Goodfellow et al. (2025)
+Re-implemented the Fast Gradient Sign Method and showed that an RBF network is more robust than linear models. The GoogLeNet / Tiny-ImageNet experiment could not be reproduced and is documented as such.
+
+---
+
+## Experience
+
+### Data science intern — Jaeger-LeCoultre (2023) · supply-chain forecasting
+Built demand-forecasting models (XGBoost, Random Forest, LSTM) on multi-source data (BigQuery, SQL Server), with business units defining use cases and KPIs.
+**Result:** best model XGBoost, improving the weighted MAPE (wMAPE) by 45 % compared with the business teams' own forecasts.
+
+### Research intern — Sorbonne Université (2022) · reinforcement learning for autonomous parking
+Literature review of model-based RL; implemented a bicycle-model parking problem in HighwayEnv and compared LQR, DDPG and DQN controllers.
+
+### Project — TurtleBot autonomous racing (2022)
+ROS + Gazebo: LIDAR/camera/IMU fusion, OpenCV colour detection, PID tuning for obstacle avoidance and trajectory tracking.
+
 ---
 
 ## Skills
 
-| Data Science                                                                                                        | Robotics & IoT                                                                                     | DevOps & Miscellaneous                                                                                           |
-|---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" title="Python" /> Python          | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" title="C++" /> C++                | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" title="Git" /> Git                           |
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="40" title="TensorFlow" /> TensorFlow   | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="40" title="OpenCV" /> OpenCV                           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gitlab/gitlab-original.svg" width="40" title="GitLab" /> GitLab               |
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="40" title="PyTorch" /> PyTorch               | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ros/ros-original.svg" width="40" title="ROS" /> ROS                            | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40" title="Google Cloud" /> Google Cloud       |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="40" title="Scikit-learn" /> scikit-learn         | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" title="C" /> C                                    | <img src="https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png" width="40" title="PowerBI" /> Power BI                     |
-| <img src="https://miro.medium.com/v2/resize:fit:419/0*Ws17TOkgJI7ie8yi.png" width="40" title="Seaborn" /> Seaborn                                       | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gazebo/gazebo-original.svg" width="40" title="Gazebo" /> Gazebo                | <img src="https://www.svgrepo.com/show/452066/ms-excel.svg" width="40" title="Excel" /> Excel |
-| <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="40" title="SQLServer" /> SQLServer                                  | <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/SolidWorks_Logo.svg" width="40" title="SolidWorks" /> SolidWorks                                |<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/2560px-LaTeX_logo.svg.png" width="40" title="LaTeX" /> LateX  |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/FastAPI_logo.svg" width="40" title="FastAPI" /> FastAPI                                  |                       |<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="40" title="AZURE" /> AZURE  |
-
-
----
-
-## Projects
-
-- 💻  Data Science personnal projects
-- 🤖  Robotics and IoT projects
-- 🔒  Brief explanation without public code
-  
-### 💻[**RAG Fact-Checking System (2025)**](https://github.com/Corrosifu/RAG_Fact_Checking)
-
-#### Context & Goal  
-Developed a complete Retrieval-Augmented Generation (RAG) pipeline for **scientific fact-checking and pedagogical explanation**.  
-The goal was to automate the retrieval, structuring, and synthesis of research papers from **arXiv**, enabling clear, verified scientific answers generated by lightweight AI models — fully executable on limited hardware (**≈ 4 GB VRAM + CPU**).
-
-#### Methodology  
-- **Data Ingestion:** Automated download and parsing of recent arXiv papers through the official API, extracting metadata and converting PDFs into **Markdown / JSON**.  
-- **Chunking & Embedding:** Segmented texts with **SciBERT** tokenizer, generating normalized embeddings using **Qwen 3 0.6B** for FAISS indexing.  
-- **Hybrid Retrieval:** Combined **semantic search (FAISS)** and **lexical search (BM25)**, then applied **MiniLM cross-encoder reranking** for higher precision.  
-- **Generation:** Leveraged **LLaMA 3.2 1B-Instruct** to produce concise, didactic explanations built from retrieved contexts — designed to simplify complex scientific concepts.  
-- **Deployment:** Containerized via **Docker Compose** (backend : FastAPI  |  frontend : Streamlit), deployable locally or on **Azure App Service**.
-
-#### Results  
-- Delivered a **fully functional RAG system** capable of sourcing, indexing, and generating responses from scientific literature.  
-- Achieved **low-latency retrieval (~2 s/query on CPU)** and consistent, context-aware generation.  
-- Demonstrated a reproducible end-to-end **explainable AI architecture** for research exploration and educational use.
-  <img src="img/streamlitui.png" alt="UI" width="600" height="600">
-
----
-
-For full technical documentation, architecture overview, and complete source code, visit the [project repository](https://github.com/Corrosifu/RAG_Fact_Checking).
-
-
-### 💻[**Spam Detection Methods History (2025)**](https://github.com/Corrosifu/Spam_Detection/) 
-
-#### Context & Goal
-Developed a comprehensive spam detection system to classify emails/messages as spam or ham. The project explored both historical methods and modern machine learning techniques to improve detection accuracy and robustness.
-
-#### Methodology
-- Used datasets such as CEAS-08 and Kaggle samples.  
-- Applied advanced text preprocessing: tokenization, lemmatization, and stop-word removal with Python libraries.  
-- Compared multiple classifiers—from heuristic filters and Naive Bayes to Random Forest and XGBoost.  
-- Fine-tuned a transformer-based DistilBERT model for state-of-the-art classification.
-
-#### Results
-  | Model                | Accuracy (Text Only) | F1-Score (Text Only) | Accuracy (Multiple Features) | F1-Score (Multiple Features) |
-  |----------------------|---------------------|---------------------|------------------------------|------------------------------|
-  | KNN                  | 80.4%               | 0.80                | 75.9%                        | 0.76                         |
-  | Logistic Regression   | 98.1%               | 0.98                | 97.4%                        | 0.97                         |
-  | Random Forest        | 98.5%               | 0.98                | 99.1%                        | 0.99                         |
-  | XGBoost              | 98.1%               | 0.98                | 98.1%                        | 0.98                         |
-
-DistilBERT fine-tuning achieved near-perfect F1 scores (**~99.5%**), outperforming traditional methods but requiring greater computational resources.
-
----
-
-For full technical details and code, please refer to the project repository.
-
-  
-  ![Confusion Matrix](img/33f64031-1651-4904-9425-e7e4b1f67a8d.png)
-
-### 💻[**Covid-19 Case Prediction and Survival Analysis (2024)**](https://github.com/Corrosifu/covid19_diagnosis/)
-
-#### Context & Goal
-
-The project addresses the urgent challenge of detecting COVID-19 positive cases from clinical laboratory data collected during the pandemic at Hospital Israelita Albert Einstein, São Paulo, Brazil. The aim is to develop accurate and reliable machine learning models that help identify COVID-19 infections based on routine lab tests, under constraints of limited testing capacity and incomplete data.
-
-#### Methodology
-
-- **Dataset:** Anonymized patient data including SARS-CoV-2 RT-PCR results and various laboratory tests, standardized and cleaned.  
-- **Handling Missing Data:** Columns with more than 90% missing values were removed. Missing values were imputed by feature-wise means, and new indicators such as "has_disease" were created to improve completeness.  
-- **Data Balancing:** SMOTE technique was applied to mitigate class imbalance since negative cases dominate the dataset.  
-- **Feature Analysis:** Correlation heatmaps were generated to explore relationships among lab features.  
-- **Models Evaluated:** Classical machine learning algorithms including Random Forest, SVM, XGBoost, KNN, Logistic Regression, and ensembles.  
-- **Evaluation Metrics:** Focused on Accuracy and Recall to balance overall correctness and sensitivity to true COVID positives.
-
-#### Results
-
-| Metric         | Score  |
-|----------------|--------|
-| Accuracy       | 0.909  |
-| Recall         | 0.706  |
-| AUC            | 0.824  |
-| KS Statistic   | 0.648  |
-
-- Random Forest and XGBoost delivered the best classification results.  
-- High recall indicates strong ability to detect true positive COVID-19 cases, critical for health screening.  
-- Limitations include a relatively small test set, missing data impacting model reliability, and the need for validation on new cohorts.
-
----
-
-For complete details, preprocessing methods, model code, and visualizations, please visit the project repository.
-
-
-  <img width="851" height="548" alt="image" src="img/ababb14d-e8dd-425d-a170-81f3f12b3e43.png" />
-  <img width="1327" height="528" alt="image" src="img/427738ef-56e7-4109-bf63-480c22890a7a.png" />
-
-
-
-
-
-### 🔒**Sales Forecasting for Jaeger-LeCoultre (2023)**  
-
-<img src="img/Jaeger-le-Coultre-Logo-Vector.jpg" alt="Jaeger" width="200" height="150">
-
-#### Context / Job Goal
-
-This internship was conducted at Jaeger-LeCoultre as part of the final year of the Master in Artificial Intelligence and Robotics. The objective was to leverage data science and machine learning techniques to optimize supply chain forecasting and enhance predictive accuracy of product demand.
-
-#### Methodology
-
-- Performed technological watch to analyze emerging trends and innovations to align strategic objectives.  
-- Collaborated closely with various business units to identify relevant use cases, select key performance indicators (KPIs), and evaluate classical prediction tool performance.  
-- Processed complex, multi-source datasets by grouping, sorting, and merging tables using BigQuery (Google Cloud Platform) and SQL Server for efficient data exploitation.  
-- Developed predictive models using Python libraries such as Pandas, Seaborn for statistical analysis, and applied machine learning methods including LSTM, XGBoost, and Random Forest for time series modeling and forecasting.
-
-### Results
-
-- Achieved a weighted Mean Absolute Percentage Error (wMAPE) of 85% using XGBoost.  
-- Improved prediction wMape by over 45% when compared to classical supply chain estimation methods.  
-- Conducted thorough model evaluation adapting machine learning outcomes to operational performance needs.
-
-
-### 🔒**Reinforcement Learning for Autonomous Parking (2022)** 
-
-<img src="img/Logo_of_Sorbonne_University.svg.png" alt="Sorbonne" width="200" height="150">
-
-#### Context / Job Goal
-
-This research internship at Sorbonne Université focused on model-based reinforcement learning with the aim to deepen understanding of advanced RL techniques and their applications to autonomous system control. The project targeted solving real-world control problems by implementing and optimizing reinforcement learning algorithms.
-
-#### Methodology
-
-- Conducted an extensive literature review to establish the state of the art in model-based reinforcement learning.  
-- Implemented a bicycle dynamic model simulating an autonomous parking problem within the HighwayEnv environment from OpenAI Gym, coded in Python.  
-- Applied advanced reinforcement learning algorithms including Linear Quadratic Regulator (LQR) control, Deep Deterministic Policy Gradient (DDPG), and Deep Q-Networks (DQN) for policy optimization and control.  
-- Performed iterative model tuning and evaluation to improve autonomous system performance in simulated scenarios.
-
-#### Results
-
-- Successfully demonstrated autonomous parking task completion using both classical control (LQR) and deep reinforcement learning techniques (DDPG, DQN).  
-- Validated the reinforcement learning framework’s effectiveness on a realistic control environment, highlighting strengths and limitations of each algorithm.  
-- Provided groundwork for further research and development in applying reinforcement learning to complex robotic control tasks.
-
-
-
-### 🤖**TurtleBot Autonomous Racing Project (2022)**  
-
-  Designed and developed control algorithms for an autonomous TurtleBot capable of navigating race tracks with obstacle avoidance and trajectory tracking. Integrated multiple sensor inputs including LIDAR, RGB camera, and IMU within the Robot Operating System (ROS) framework. Employed Gazebo for realistic simulation testing. Applied computer vision techniques, including OpenCV for target color detection and image processing. Tuned PID controllers to optimize robot motion stability and speed while avoiding collisions on complex racecourse layouts.
-  
----
-
-
-## Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)  
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
-
-
-
-
-![Profile views](https://komarev.com/ghpvc/?username=Corrosifu)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=googlebigquery&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git%20%26%20CI-F05032?style=flat&logo=git&logoColor=white)
+
+- **ML & NLP:** classical ML (XGBoost, random forests), transformers fine-tuning, retrieval (BM25, dense, reranking), NLI-based verification, evaluation
+- **Engineering:** packaging, testing (pytest), CI, REST APIs, containers, deployment on Azure
+- **Data:** pandas, SQL (BigQuery, SQL Server), time-series forecasting, Power BI
+- **Also:** reinforcement learning, computer vision (OpenCV), ROS / Gazebo, C / C++, LaTeX
+
+## Education
+- **MSc Robotics & Artificial Intelligence (SAR)** — Sorbonne Université, 2023
