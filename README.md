@@ -5,7 +5,9 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/bilal-bounadja-data/"><img src="https://img.shields.io/badge/LinkedIn-18181b?style=flat-square&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"></a>
   <a href="mailto:bilal.bndj@gmail.com"><img src="https://img.shields.io/badge/Contact-18181b?style=flat-square&logo=gmail&logoColor=a78bfa" alt="Contact"></a>
-  <img src="https://img.shields.io/badge/MSc%20Robotics%20%26%20AI-Sorbonne%202023-18181b?style=flat-square&labelColor=18181b" alt="MSc Robotics and AI, Sorbonne Université, 2023">
+  <img src="https://img.shields.io/badge/Data%20Scientist-Sanofi-18181b?style=flat-square&logo=sanofi&logoColor=a78bfa" alt="Data Scientist at Sanofi">
+  <img src="https://img.shields.io/badge/MS%20Data%20%26%20GenAI%20Engineering-EFREI%20(in%20progress)-18181b?style=flat-square" alt="MS Data and Generative AI Engineering, EFREI, in progress">
+  <img src="https://img.shields.io/badge/MSc%20Robotics%20%26%20AI-Sorbonne%20%C3%97%20ENSAM%202023-18181b?style=flat-square" alt="MSc Robotics and AI, Sorbonne Université and ENSAM, 2023">
 </p>
 
 I build machine-learning systems end to end, with a focus on **language models, retrieval and trustworthy answers**.
@@ -97,10 +99,12 @@ Small local language models write fluent answers that are sometimes not backed b
 
 ## Experience
 
+- **Sanofi** · data scientist (current).
 - **Jaeger-LeCoultre** · data science intern (2023) — supply-chain demand forecasting (XGBoost, Random Forest, LSTM on BigQuery and SQL Server); improved the weighted MAPE by **45 %** compared with the business teams' own forecasts.
 - **Sorbonne Université** · research intern (2022) — reinforcement learning for autonomous parking: LQR, DDPG and DQN controllers in HighwayEnv.
 - **TurtleBot autonomous racing** (2022) — ROS and Gazebo, LIDAR/camera/IMU, OpenCV colour detection, PID tuning.
 
 ## Education
 
-**MSc Robotics & Artificial Intelligence (SAR)** — Sorbonne Université, 2023
+- **Mastère Spécialisé Data & Generative AI Engineering** — EFREI (in progress)
+- **MSc Robotics & Artificial Intelligence (SAR)** — Sorbonne Université, 2023, joint programme with ENSAM (École nationale supérieure d'arts et métiers)
