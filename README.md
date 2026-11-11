@@ -99,12 +99,12 @@ Small local language models write fluent answers that are sometimes not backed b
 
 ## Experience
 
-- **Sanofi** · data scientist (current).
-- **Jaeger-LeCoultre** · data science intern (2023) — supply-chain demand forecasting (XGBoost, Random Forest, LSTM on BigQuery and SQL Server); improved the weighted MAPE by **45 %** compared with the business teams' own forecasts.
-- **Sorbonne Université** · research intern (2022) — reinforcement learning for autonomous parking: LQR, DDPG and DQN controllers in HighwayEnv.
+- <img src="img/logos/sanofi.png" alt="Sanofi" height="34"> **Sanofi** · data scientist (current).
+- <img src="img/logos/jlc.png" alt="Jaeger-LeCoultre" height="34"> **Jaeger-LeCoultre** · data science intern (2023) — supply-chain demand forecasting (XGBoost, Random Forest, LSTM on BigQuery and SQL Server); improved the weighted MAPE by **45 %** compared with the business teams' own forecasts.
+- <img src="img/logos/sorbonne.png" alt="Sorbonne Université" height="34"> **Sorbonne Université** · research intern (2022) — reinforcement learning for autonomous parking: LQR, DDPG and DQN controllers in HighwayEnv.
 - **TurtleBot autonomous racing** (2022) — ROS and Gazebo, LIDAR/camera/IMU, OpenCV colour detection, PID tuning.
 
 ## Education
 
-- **Mastère Spécialisé Data & Generative AI Engineering** — EFREI (in progress)
-- **MSc Robotics & Artificial Intelligence (SAR)** — Sorbonne Université, 2023, joint programme with ENSAM (École nationale supérieure d'arts et métiers)
+- <img src="img/logos/efrei.png" alt="EFREI" height="34"> **Mastère Spécialisé Data & Generative AI Engineering** — EFREI (in progress)
+- <img src="img/logos/sorbonne.png" alt="Sorbonne Université" height="34"> <img src="img/logos/ensam.png" alt="Arts et Métiers" height="34"> **MSc Robotics & Artificial Intelligence (SAR)** — Sorbonne Université, 2023, joint programme with ENSAM (Arts et Métiers)
