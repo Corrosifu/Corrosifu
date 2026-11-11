@@ -1,0 +1,35 @@
+# Generates img/metrics.svg with https://github.com/lowlighter/metrics and commits it.
+# Setup (one time): create a personal access token with NO scopes, store it as the repository
+# secret METRICS_TOKEN, then run this workflow once from the Actions tab.
+name: Metrics
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, 03:17 UTC
+  workflow_dispatch: # manual run from the Actions tab
+
+concurrency:
+  group: metrics
+  cancel-in-progress: true
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # lets the action commit the rendered image
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: img/metrics.svg
+          config_timezone: Europe/Paris
+          # header: two-week commit calendars · activity: recent public events
+          # repositories: licenses, forks and stars · metadata: how the image was generated
+          # ("community" is left out: it lists following, sponsors and organisations)
+          base: header, activity, repositories, metadata
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_ignored: jupyter notebook # notebooks would otherwise dominate the chart
+          plugin_languages_limit: 6
+          plugin_languages_threshold: 2%
+          plugin_languages_details: percentage
