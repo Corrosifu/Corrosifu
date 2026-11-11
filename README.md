@@ -1,8 +1,8 @@
+<p align="center">
+  <img src="img/banner.svg" alt="Bilal Bounadja — AI / ML Engineer · Data Scientist. Language models, retrieval, evaluation." width="100%">
+</p>
+
 <div align="center">
-
-# Bilal Bounadja
-
-**ML / AI Engineer · NLP & RAG · Data Scientist**
 
 MSc Robotics & AI — Sorbonne Université (2023)
 
@@ -12,18 +12,6 @@ MSc Robotics & AI — Sorbonne Université (2023)
 </div>
 
 I build machine-learning systems end to end — from data and models to evaluation, APIs and tests — with a focus on **language models, retrieval and trustworthy answers**. I care about measuring what works: baselines, honest metrics and documented limitations.
-
-<p align="center">
-  <a href="https://github.com/Corrosifu/RAG_Fact_Checking/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Corrosifu/RAG_Fact_Checking/ci.yml?branch=main&style=flat-square&label=CI&labelColor=24292f" alt="CI status"></a>
-  <img src="https://img.shields.io/badge/tests-118-2da44e?style=flat-square&labelColor=24292f" alt="118 tests">
-  <img src="https://img.shields.io/badge/runs%20on-CPU-0969da?style=flat-square&labelColor=24292f" alt="Runs on CPU">
-  <img src="https://img.shields.io/badge/local%20LLM-no%20API%20key-8250df?style=flat-square&labelColor=24292f" alt="Local LLM, no API key">
-</p>
-
-<p align="center">
-  <img src="img/rag-demo.gif" alt="Demo: a local model answers a question and each sentence is checked against the sources" width="640"><br>
-  <sub>RAG Fact-Checking — a local model answers, then every sentence is checked against the sources.</sub>
-</p>
 
 ---
 
@@ -41,6 +29,19 @@ I build machine-learning systems end to end — from data and models to evaluati
 ## RAG Fact-Checking — flagship project
 
 **Problem.** Small local language models write fluent answers that are sometimes not backed by their sources. This system answers questions about scientific papers *and* tells you which sentences of the answer are confirmed by the evidence.
+
+<p align="center">
+  <a href="https://github.com/Corrosifu/RAG_Fact_Checking/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Corrosifu/RAG_Fact_Checking/ci.yml?branch=main&style=flat-square&label=CI&labelColor=24292f" alt="CI status"></a>
+  <img src="https://img.shields.io/github/last-commit/Corrosifu/RAG_Fact_Checking?style=flat-square&labelColor=24292f&label=last%20commit" alt="Last commit">
+  <img src="https://img.shields.io/badge/tests-118-2da44e?style=flat-square&labelColor=24292f" alt="118 tests">
+  <img src="https://img.shields.io/badge/runs%20on-CPU-0969da?style=flat-square&labelColor=24292f" alt="Runs on CPU">
+  <img src="https://img.shields.io/badge/local%20LLM-no%20API%20key-8250df?style=flat-square&labelColor=24292f" alt="Local LLM, no API key">
+</p>
+
+<p align="center">
+  <img src="img/rag-demo.gif" alt="Demo: a local model answers a question and each sentence is checked against the sources" width="640"><br>
+  <sub>RAG Fact-Checking — a local model answers, then every sentence is checked against the sources.</sub>
+</p>
 
 **How it works**
 
@@ -141,3 +142,9 @@ ROS + Gazebo: LIDAR/camera/IMU fusion, OpenCV colour detection, PID tuning for o
 
 ## Education
 - **MSc Robotics & Artificial Intelligence (SAR)** — Sorbonne Université, 2023
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Corrosifu&label=Profile+views&color=24292f&style=flat-square" alt="Profile views">
+</p>
