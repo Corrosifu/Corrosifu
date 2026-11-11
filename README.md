@@ -14,12 +14,11 @@ I measure what works: baselines, honest metrics and documented limitations.
 ## Featured projects
 
 <p align="center">
-  <a href="https://github.com/Corrosifu/RAG_Fact_Checking"><img src="img/card-rag.png" alt="RAG Fact-Checking: scientific QA over arXiv papers that verifies its own answers with NLI" width="280"></a>
-  <a href="https://github.com/Corrosifu/Spam_Detection"><img src="img/card-spam.png" alt="Spam Detection: from heuristics to fine-tuned DistilBERT" width="280"></a>
-  <a href="https://github.com/Corrosifu/Projet_MLA"><img src="img/card-adversarial.png" alt="Adversarial ML: reproduction of Goodfellow et al. (FGSM) and a robustness comparison" width="280"></a>
+  <a href="https://github.com/Corrosifu/RAG_Fact_Checking"><img src="img/card-rag.png" alt="RAG Fact-Checking: scientific QA over arXiv papers that verifies its own answers with NLI" width="410"></a>
+  <a href="https://github.com/Corrosifu/Spam_Detection"><img src="img/card-spam.png" alt="Spam Detection: from heuristics to fine-tuned DistilBERT, F1 from 0.72 to 0.995" width="410"></a><br>
+  <a href="https://github.com/Corrosifu/Projet_MLA"><img src="img/card-adversarial.png" alt="Adversarial ML: reproduction of Goodfellow et al. with tests; an FGSM-trained model fails under PGD" width="410"></a>
+  <a href="https://github.com/Corrosifu/covid19_diagnosis"><img src="img/card-covid.png" alt="COVID-19 Prediction: positivity from routine blood tests on incomplete data, accuracy 0.909, recall 0.706, AUC 0.824" width="410"></a>
 </p>
-
-Also: [COVID-19 case prediction](https://github.com/Corrosifu/covid19_diagnosis) — tabular ML on incomplete clinical data (imputation, SMOTE, recall-oriented evaluation).
 
 ---
 
@@ -56,7 +55,7 @@ Small local language models write fluent answers that are sometimes not backed b
 [**→ Repository, documentation and limitations**](https://github.com/Corrosifu/RAG_Fact_Checking)
 
 <details>
-<summary><b>Results at a glance</b> — spam detection and COVID-19 prediction</summary>
+<summary><b>Results at a glance</b> — spam detection, COVID-19 prediction and adversarial ML</summary>
 
 <br>
 
@@ -80,6 +79,8 @@ Small local language models write fluent answers that are sometimes not backed b
 <p align="center">
   <img src="img/covid-feature-importance.png" alt="Feature importance of the tree-based model; the engineered has_disease feature ranks first" width="480">
 </p>
+
+**Adversarial ML** (MNIST, `eps = 0.25`, [reproduction of Goodfellow et al. 2015](https://github.com/Corrosifu/Projet_MLA)): adversarial training lowers the error of a maxout network on FGSM examples from 91.9 % to 10.8 % (paper: 89.4 % to 17.9 %), but a 20-step PGD attack still reaches **98.2 %**. The model mostly learned to resist the attack it was trained on. One seed, untuned recipe; the repository lists what is and is not reproduced.
 
 </details>
 
