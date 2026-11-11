@@ -6,12 +6,24 @@
 
 MSc Robotics & AI — Sorbonne Université (2023)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)
-[![Email](https://img.shields.io/badge/Contact-D14836?style=flat&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-24292f?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-bounadja-data/)
+[![Email](https://img.shields.io/badge/Contact-24292f?style=flat-square&logo=gmail&logoColor=white)](mailto:bilal.bndj@gmail.com)
 
 </div>
 
 I build machine-learning systems end to end — from data and models to evaluation, APIs and tests — with a focus on **language models, retrieval and trustworthy answers**. I care about measuring what works: baselines, honest metrics and documented limitations.
+
+<p align="center">
+  <a href="https://github.com/Corrosifu/RAG_Fact_Checking/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Corrosifu/RAG_Fact_Checking/ci.yml?branch=main&style=flat-square&label=CI&labelColor=24292f" alt="CI status"></a>
+  <img src="https://img.shields.io/badge/tests-118-2da44e?style=flat-square&labelColor=24292f" alt="118 tests">
+  <img src="https://img.shields.io/badge/runs%20on-CPU-0969da?style=flat-square&labelColor=24292f" alt="Runs on CPU">
+  <img src="https://img.shields.io/badge/local%20LLM-no%20API%20key-8250df?style=flat-square&labelColor=24292f" alt="Local LLM, no API key">
+</p>
+
+<p align="center">
+  <img src="img/rag-demo.gif" alt="Demo: a local model answers a question and each sentence is checked against the sources" width="640"><br>
+  <sub>RAG Fact-Checking — a local model answers, then every sentence is checked against the sources.</sub>
+</p>
 
 ---
 
@@ -31,6 +43,11 @@ I build machine-learning systems end to end — from data and models to evaluati
 **Problem.** Small local language models write fluent answers that are sometimes not backed by their sources. This system answers questions about scientific papers *and* tells you which sentences of the answer are confirmed by the evidence.
 
 **How it works**
+
+<p align="center">
+  <a href="img/rag-architecture.png"><img src="img/rag-architecture.png" alt="Architecture: build the knowledge base, ask a question with answer verification, fact-check a claim" width="900"></a>
+</p>
+
 - **Ingestion:** arXiv API → documents → word-window chunks.
 - **Hybrid retrieval:** BM25 + dense embeddings, fused with Reciprocal Rank Fusion; optional cross-encoder reranking.
 - **Generation:** extractive fallback (no model) or a small local LLM (Qwen2.5-0.5B) on CPU.
@@ -38,13 +55,14 @@ I build machine-learning systems end to end — from data and models to evaluati
 - **Engineering:** installable package, CLI, FastAPI service, Streamlit UI, Docker, **118 tests**, linting and CI.
 
 **What I learned by testing on real papers** (and fixed)
+
 - Feeding whole PDF chunks to the NLI model produced confident wrong verdicts (a true claim refuted at 84 %); switching to sentence-level evidence windows removed them.
 - On a 0.5B generator, the verifier flagged 5 of 6 sentences of a partly invented answer and confirmed 2 of 2 sentences of a faithful one.
 - Limits are documented in the repo: small hand-checked samples, not a benchmark. Next step: evaluate on a public scientific claim-verification dataset.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Corrosifu/RAG_Fact_Checking/main/img/ui-factcheck-supported.png" alt="Fact-check result with evidence sentences" width="380">
-  <img src="https://raw.githubusercontent.com/Corrosifu/RAG_Fact_Checking/main/img/ui-verify-flagged.png" alt="Generated answer with sentences flagged as not confirmed by the sources" width="380">
+  <a href="img/rag-fact-check.png"><img src="img/rag-fact-check.png" alt="Fact-check result: SUPPORTED, with the exact evidence sentences and their NLI probabilities" width="560"></a><br>
+  <sub>Fact-check tab: verdict plus the exact evidence sentences, with their sources and probabilities.</sub>
 </p>
 
 ---
@@ -104,17 +122,17 @@ ROS + Gazebo: LIDAR/camera/IMU fusion, OpenCV colour detection, PID tuning for o
 
 ## Skills
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![GCP](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=googlebigquery&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git%20%26%20CI-F05032?style=flat&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/Python-24292f?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-24292f?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-24292f?style=flat-square&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-24292f?style=flat-square&logo=scikitlearn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-24292f?style=flat-square&logo=huggingface&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-24292f?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-24292f?style=flat-square&logo=docker&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-24292f?style=flat-square&logo=microsoftazure&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-24292f?style=flat-square&logo=googlebigquery&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-24292f?style=flat-square&logo=postgresql&logoColor=white)
+![Git & CI](https://img.shields.io/badge/Git%26CI-24292f?style=flat-square&logo=git&logoColor=white)
 
 - **ML & NLP:** classical ML (XGBoost, random forests), transformers fine-tuning, retrieval (BM25, dense, reranking), NLI-based verification, evaluation
 - **Engineering:** packaging, testing (pytest), CI, REST APIs, containers, deployment on Azure
