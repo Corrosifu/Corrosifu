@@ -8,6 +8,8 @@
   <img src="https://img.shields.io/badge/Data%20Scientist-Sanofi-18181b?style=flat-square&logo=sanofi&logoColor=a78bfa" alt="Data Scientist at Sanofi">
   <img src="https://img.shields.io/badge/MS%20Data%20%26%20GenAI%20Engineering-EFREI%20(in%20progress)-18181b?style=flat-square" alt="MS Data and Generative AI Engineering, EFREI, in progress">
   <img src="https://img.shields.io/badge/MSc%20Robotics%20%26%20AI-Sorbonne%20%C3%97%20ENSAM%202023-18181b?style=flat-square" alt="MSc Robotics and AI, Sorbonne Université and ENSAM, 2023">
+  <img src="https://komarev.com/ghpvc/?username=Corrosifu&label=Profile%20views&style=flat-square&labelColor=18181b&color=8b5cf6" alt="Profile views">
+  <a href="https://github.com/Corrosifu?tab=followers"><img src="https://img.shields.io/github/followers/Corrosifu?style=flat-square&labelColor=18181b&color=8b5cf6&label=Followers&logo=github&logoColor=a78bfa" alt="GitHub followers"></a>
 </p>
 
 I build machine-learning systems end to end, with a focus on **language models, retrieval and trustworthy answers**.
@@ -16,21 +18,22 @@ I measure what works: baselines, honest metrics and documented limitations.
 ## Featured projects
 
 <p align="center">
-  <a href="https://github.com/Corrosifu/RAG_Fact_Checking"><img src="img/card-rag.png" alt="RAG Fact-Checking: scientific QA over arXiv papers that verifies its own answers with NLI" width="410"></a>
-  <a href="https://github.com/Corrosifu/Spam_Detection"><img src="img/card-spam.png" alt="Spam Detection: from heuristics to fine-tuned DistilBERT, F1 from 0.72 to 0.995" width="410"></a><br>
-  <a href="https://github.com/Corrosifu/Projet_MLA"><img src="img/card-adversarial.png" alt="Adversarial ML: reproduction of Goodfellow et al. with tests; an FGSM-trained model fails under PGD" width="410"></a>
-  <a href="https://github.com/Corrosifu/covid19_diagnosis"><img src="img/card-covid.png" alt="COVID-19 Prediction: positivity from routine blood tests on incomplete data, accuracy 0.909, recall 0.706, AUC 0.824" width="410"></a>
+  <a href="https://github.com/Corrosifu/RAG_Fact_Checking"><img src="img/card-rag.svg" alt="RAG Fact-Checking: scientific QA over arXiv papers that verifies its own answers with NLI" width="410"></a>
+  <a href="https://github.com/Corrosifu/Spam_Detection"><img src="img/card-spam.svg" alt="Spam Detection: from heuristics to fine-tuned DistilBERT, F1 from 0.72 to 0.995" width="410"></a><br>
+  <a href="https://github.com/Corrosifu/Projet_MLA"><img src="img/card-adversarial.svg" alt="Adversarial ML: reproduction of Goodfellow et al. with tests; an FGSM-trained model fails under PGD" width="410"></a>
+  <a href="https://github.com/Corrosifu/covid19_diagnosis"><img src="img/card-covid.svg" alt="COVID-19 Prediction: positivity from routine blood tests on incomplete data, accuracy 0.909, recall 0.706, AUC 0.824" width="410"></a>
 </p>
 
 ---
 
-## Flagship: RAG Fact-Checking
+<h2><a href="https://github.com/Corrosifu/RAG_Fact_Checking"><img src="img/title-rag.svg" alt="Flagship: RAG Fact-Checking" width="100%"></a></h2>
 
 Small local language models write fluent answers that are sometimes not backed by their sources. This system answers questions about scientific papers **and shows which sentences of the answer are confirmed by the evidence**.
 
 <p align="center">
   <a href="https://github.com/Corrosifu/RAG_Fact_Checking/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Corrosifu/RAG_Fact_Checking/ci.yml?branch=main&style=flat-square&label=CI&labelColor=18181b" alt="CI status"></a>
   <img src="https://img.shields.io/github/last-commit/Corrosifu/RAG_Fact_Checking?style=flat-square&labelColor=18181b&color=8b5cf6&label=last%20commit" alt="Last commit">
+  <img src="https://img.shields.io/github/stars/Corrosifu/RAG_Fact_Checking?style=flat-square&labelColor=18181b&color=8b5cf6&label=stars" alt="GitHub stars">
   <img src="https://img.shields.io/badge/tests-146-8b5cf6?style=flat-square&labelColor=18181b" alt="146 tests">
   <img src="https://img.shields.io/badge/runs%20on-CPU-8b5cf6?style=flat-square&labelColor=18181b" alt="Runs on CPU">
 </p>
@@ -62,7 +65,14 @@ Small local language models write fluent answers that are sometimes not backed b
 
 <br>
 
-**Spam detection** (CEAS-08, 4,000-email sample, single 80/20 split — caveats in the repository)
+<h3><a href="https://github.com/Corrosifu/Spam_Detection"><img src="img/title-spam.svg" alt="Spam detection" width="100%"></a></h3>
+
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/Corrosifu/Spam_Detection?style=flat-square&labelColor=18181b&color=8b5cf6&label=last%20commit" alt="Last commit">
+  <img src="https://img.shields.io/github/stars/Corrosifu/Spam_Detection?style=flat-square&labelColor=18181b&color=8b5cf6&label=stars" alt="GitHub stars">
+</p>
+
+(CEAS-08, 4,000-email sample, single 80/20 split — caveats in the repository)
 
 | Model | F1 (text only) | F1 (text + extra features) |
 |---|---|---|
@@ -77,13 +87,27 @@ Small local language models write fluent answers that are sometimes not backed b
   <sub>DistilBERT on 800 test emails: no spam missed, 4 legitimate emails flagged.</sub>
 </p>
 
-**COVID-19 case prediction** (Hospital Israelita Albert Einstein data): accuracy 0.909 · recall 0.706 · AUC 0.824 · KS 0.648. Limits: small test set, heavy missingness, no external validation.
+<h3><a href="https://github.com/Corrosifu/covid19_diagnosis"><img src="img/title-covid.svg" alt="COVID-19 case prediction" width="100%"></a></h3>
+
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/Corrosifu/covid19_diagnosis?style=flat-square&labelColor=18181b&color=8b5cf6&label=last%20commit" alt="Last commit">
+  <img src="https://img.shields.io/github/stars/Corrosifu/covid19_diagnosis?style=flat-square&labelColor=18181b&color=8b5cf6&label=stars" alt="GitHub stars">
+</p>
+
+(Hospital Israelita Albert Einstein data): accuracy 0.909 · recall 0.706 · AUC 0.824 · KS 0.648. Limits: small test set, heavy missingness, no external validation.
 
 <p align="center">
   <img src="img/covid-feature-importance.png" alt="Feature importance of the tree-based model; the engineered has_disease feature ranks first" width="480">
 </p>
 
-**Adversarial ML** (MNIST, `eps = 0.25`, [reproduction of Goodfellow et al. 2015](https://github.com/Corrosifu/Projet_MLA)): adversarial training lowers the error of a maxout network on FGSM examples from 91.9 % to 10.8 % (paper: 89.4 % to 17.9 %), but a 20-step PGD attack still reaches **98.2 %**. The model mostly learned to resist the attack it was trained on. One seed, untuned recipe; the repository lists what is and is not reproduced.
+<h3><a href="https://github.com/Corrosifu/Projet_MLA"><img src="img/title-adversarial.svg" alt="Adversarial ML" width="100%"></a></h3>
+
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/Corrosifu/Projet_MLA?style=flat-square&labelColor=18181b&color=8b5cf6&label=last%20commit" alt="Last commit">
+  <img src="https://img.shields.io/github/stars/Corrosifu/Projet_MLA?style=flat-square&labelColor=18181b&color=8b5cf6&label=stars" alt="GitHub stars">
+</p>
+
+(MNIST, `eps = 0.25`, [reproduction of Goodfellow et al. 2015](https://github.com/Corrosifu/Projet_MLA)): adversarial training lowers the error of a maxout network on FGSM examples from 91.9 % to 10.8 % (paper: 89.4 % to 17.9 %), but a 20-step PGD attack still reaches **98.2 %**. The model mostly learned to resist the attack it was trained on. One seed, untuned recipe; the repository lists what is and is not reproduced.
 
 </details>
 
