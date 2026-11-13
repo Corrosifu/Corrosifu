@@ -16,10 +16,10 @@ I measure what works: baselines, honest metrics and documented limitations.
 ## Featured projects
 
 <p align="center">
-  <a href="https://github.com/Corrosifu/RAG_Fact_Checking"><img src="img/card-rag.png" alt="RAG Fact-Checking: scientific QA over arXiv papers that verifies its own answers with NLI" width="410"></a>
-  <a href="https://github.com/Corrosifu/Spam_Detection"><img src="img/card-spam.png" alt="Spam Detection: from heuristics to fine-tuned DistilBERT, F1 from 0.72 to 0.995" width="410"></a><br>
-  <a href="https://github.com/Corrosifu/Projet_MLA"><img src="img/card-adversarial.png" alt="Adversarial ML: reproduction of Goodfellow et al. with tests; an FGSM-trained model fails under PGD" width="410"></a>
-  <a href="https://github.com/Corrosifu/covid19_diagnosis"><img src="img/card-covid.png" alt="COVID-19 Prediction: positivity from routine blood tests on incomplete data, accuracy 0.909, recall 0.706, AUC 0.824" width="410"></a>
+  <a href="https://github.com/Corrosifu/RAG_Fact_Checking"><img src="img/card-rag.svg" alt="RAG Fact-Checking: scientific QA over arXiv papers that verifies its own answers with NLI" width="410"></a>
+  <a href="https://github.com/Corrosifu/Spam_Detection"><img src="img/card-spam.svg" alt="Spam Detection: from heuristics to fine-tuned DistilBERT, F1 from 0.72 to 0.995" width="410"></a><br>
+  <a href="https://github.com/Corrosifu/Projet_MLA"><img src="img/card-adversarial.svg" alt="Adversarial ML: reproduction of Goodfellow et al. with tests; an FGSM-trained model fails under PGD" width="410"></a>
+  <a href="https://github.com/Corrosifu/covid19_diagnosis"><img src="img/card-covid.svg" alt="COVID-19 Prediction: positivity from routine blood tests on incomplete data, accuracy 0.909, recall 0.706, AUC 0.824" width="410"></a>
 </p>
 
 ---
