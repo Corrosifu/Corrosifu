@@ -3,13 +3,13 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/bilal-bounadja-data/"><img src="https://img.shields.io/badge/LinkedIn-18181b?style=flat-square&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"></a>
-  <a href="mailto:bilal.bndj@gmail.com"><img src="https://img.shields.io/badge/Contact-18181b?style=flat-square&logo=gmail&logoColor=a78bfa" alt="Contact"></a>
-  <img src="https://img.shields.io/badge/Data%20Scientist-Sanofi-18181b?style=flat-square&logo=sanofi&logoColor=a78bfa" alt="Data Scientist at Sanofi">
-  <img src="https://img.shields.io/badge/MS%20Data%20%26%20GenAI%20Engineering-EFREI%20(in%20progress)-18181b?style=flat-square" alt="MS Data and Generative AI Engineering, EFREI, in progress">
-  <img src="https://img.shields.io/badge/MSc%20Robotics%20%26%20AI-Sorbonne%20%C3%97%20ENSAM%202023-18181b?style=flat-square" alt="MSc Robotics and AI, Sorbonne Université and ENSAM, 2023">
-  <img src="https://komarev.com/ghpvc/?username=Corrosifu&label=Profile%20views&style=flat-square&labelColor=18181b&color=8b5cf6" alt="Profile views">
-  <a href="https://github.com/Corrosifu?tab=followers"><img src="https://img.shields.io/github/followers/Corrosifu?style=flat-square&labelColor=18181b&color=8b5cf6&label=Followers&logo=github&logoColor=a78bfa" alt="GitHub followers"></a>
+  <a href="https://www.linkedin.com/in/bilal-bounadja-data/"><img src="img/badges/linkedin.svg" alt="LinkedIn" height="28"></a>
+  <a href="mailto:bilal.bndj@gmail.com"><img src="img/badges/contact.svg" alt="Contact" height="28"></a><br>
+  <img src="img/badges/sanofi.svg" alt="Data Scientist at Sanofi" height="28">
+  <img src="img/badges/efrei.svg" alt="MS Data and Generative AI Engineering, EFREI, in progress" height="28">
+  <img src="img/badges/sorbonne.svg" alt="MSc Robotics and AI, Sorbonne Université and ENSAM, 2023" height="28"><br>
+  <img src="https://komarev.com/ghpvc/?username=Corrosifu&label=Profile%20views&style=flat-square&labelColor=18181b&color=8b5cf6" alt="Profile views" height="28">
+  <a href="https://github.com/Corrosifu?tab=followers"><img src="https://img.shields.io/github/followers/Corrosifu?style=flat-square&labelColor=18181b&color=8b5cf6&label=Followers&logo=github&logoColor=a78bfa" alt="GitHub followers" height="28"></a>
 </p>
 
 I build machine-learning systems end to end, with a focus on **language models, retrieval and trustworthy answers**.
@@ -68,8 +68,9 @@ Small local language models write fluent answers that are sometimes not backed b
 <h3><a href="https://github.com/Corrosifu/Spam_Detection"><img src="img/title-spam.svg" alt="Spam detection" width="100%"></a></h3>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/Corrosifu/Spam_Detection?style=flat-square&labelColor=18181b&color=8b5cf6&label=last%20commit" alt="Last commit">
-  <img src="https://img.shields.io/github/stars/Corrosifu/Spam_Detection?style=flat-square&labelColor=18181b&color=8b5cf6&label=stars" alt="GitHub stars">
+  <img src="img/badges/metrics-spam.svg" alt="F1 0.995 with DistilBERT" height="28"><br>
+  <img src="https://img.shields.io/github/last-commit/Corrosifu/Spam_Detection?style=flat-square&labelColor=18181b&color=8b5cf6&label=last%20commit" alt="Last commit" height="28">
+  <img src="https://img.shields.io/github/stars/Corrosifu/Spam_Detection?style=flat-square&labelColor=18181b&color=8b5cf6&label=stars" alt="GitHub stars" height="28">
 </p>
 
 (CEAS-08, 4,000-email sample, single 80/20 split — caveats in the repository)
@@ -90,8 +91,9 @@ Small local language models write fluent answers that are sometimes not backed b
 <h3><a href="https://github.com/Corrosifu/covid19_diagnosis"><img src="img/title-covid.svg" alt="COVID-19 case prediction" width="100%"></a></h3>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/Corrosifu/covid19_diagnosis?style=flat-square&labelColor=18181b&color=8b5cf6&label=last%20commit" alt="Last commit">
-  <img src="https://img.shields.io/github/stars/Corrosifu/covid19_diagnosis?style=flat-square&labelColor=18181b&color=8b5cf6&label=stars" alt="GitHub stars">
+  <img src="img/badges/metrics-covid.svg" alt="Accuracy 0.909, recall 0.706, AUC 0.824, KS 0.648" height="28"><br>
+  <img src="https://img.shields.io/github/last-commit/Corrosifu/covid19_diagnosis?style=flat-square&labelColor=18181b&color=8b5cf6&label=last%20commit" alt="Last commit" height="28">
+  <img src="https://img.shields.io/github/stars/Corrosifu/covid19_diagnosis?style=flat-square&labelColor=18181b&color=8b5cf6&label=stars" alt="GitHub stars" height="28">
 </p>
 
 (Hospital Israelita Albert Einstein data): accuracy 0.909 · recall 0.706 · AUC 0.824 · KS 0.648. Limits: small test set, heavy missingness, no external validation.
@@ -103,8 +105,9 @@ Small local language models write fluent answers that are sometimes not backed b
 <h3><a href="https://github.com/Corrosifu/Projet_MLA"><img src="img/title-adversarial.svg" alt="Adversarial ML" width="100%"></a></h3>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/Corrosifu/Projet_MLA?style=flat-square&labelColor=18181b&color=8b5cf6&label=last%20commit" alt="Last commit">
-  <img src="https://img.shields.io/github/stars/Corrosifu/Projet_MLA?style=flat-square&labelColor=18181b&color=8b5cf6&label=stars" alt="GitHub stars">
+  <img src="img/badges/metrics-adversarial.svg" alt="FGSM error 10.8 %, PGD error 98.2 %" height="28"><br>
+  <img src="https://img.shields.io/github/last-commit/Corrosifu/Projet_MLA?style=flat-square&labelColor=18181b&color=8b5cf6&label=last%20commit" alt="Last commit" height="28">
+  <img src="https://img.shields.io/github/stars/Corrosifu/Projet_MLA?style=flat-square&labelColor=18181b&color=8b5cf6&label=stars" alt="GitHub stars" height="28">
 </p>
 
 (MNIST, `eps = 0.25`, [reproduction of Goodfellow et al. 2015](https://github.com/Corrosifu/Projet_MLA)): adversarial training lowers the error of a maxout network on FGSM examples from 91.9 % to 10.8 % (paper: 89.4 % to 17.9 %), but a 20-step PGD attack still reaches **98.2 %**. The model mostly learned to resist the attack it was trained on. One seed, untuned recipe; the repository lists what is and is not reproduced.
