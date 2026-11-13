@@ -34,7 +34,7 @@ Small local language models write fluent answers that are sometimes not backed b
   <a href="https://github.com/Corrosifu/RAG_Fact_Checking/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Corrosifu/RAG_Fact_Checking/ci.yml?branch=main&style=flat-square&label=CI&labelColor=18181b" alt="CI status"></a>
   <img src="https://img.shields.io/github/last-commit/Corrosifu/RAG_Fact_Checking?style=flat-square&labelColor=18181b&color=8b5cf6&label=last%20commit" alt="Last commit">
   <img src="https://img.shields.io/github/stars/Corrosifu/RAG_Fact_Checking?style=flat-square&labelColor=18181b&color=8b5cf6&label=stars" alt="GitHub stars">
-  <img src="https://img.shields.io/badge/tests-139-8b5cf6?style=flat-square&labelColor=18181b" alt="139 tests">
+  <img src="https://img.shields.io/badge/tests-146-8b5cf6?style=flat-square&labelColor=18181b" alt="146 tests">
   <img src="https://img.shields.io/badge/runs%20on-CPU-8b5cf6?style=flat-square&labelColor=18181b" alt="Runs on CPU">
 </p>
 
