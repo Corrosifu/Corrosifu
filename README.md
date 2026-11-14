@@ -34,7 +34,7 @@ Small local language models write fluent answers that are sometimes not backed b
   <a href="https://github.com/Corrosifu/RAG_Fact_Checking/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Corrosifu/RAG_Fact_Checking/ci.yml?branch=main&style=flat-square&label=CI&labelColor=18181b" alt="CI status"></a>
   <img src="https://img.shields.io/github/last-commit/Corrosifu/RAG_Fact_Checking?style=flat-square&labelColor=18181b&color=8b5cf6&label=last%20commit" alt="Last commit">
   <img src="https://img.shields.io/github/stars/Corrosifu/RAG_Fact_Checking?style=flat-square&labelColor=18181b&color=8b5cf6&label=stars" alt="GitHub stars">
-  <img src="https://img.shields.io/badge/tests-146-8b5cf6?style=flat-square&labelColor=18181b" alt="146 tests">
+  <img src="https://img.shields.io/badge/tests-164-8b5cf6?style=flat-square&labelColor=18181b" alt="164 tests">
   <img src="https://img.shields.io/badge/runs%20on-CPU-8b5cf6?style=flat-square&labelColor=18181b" alt="Runs on CPU">
 </p>
 
@@ -56,7 +56,9 @@ Small local language models write fluent answers that are sometimes not backed b
 
 - Feeding whole PDF chunks to the NLI model produced confident wrong verdicts (a true claim refuted at 84 %); sentence-level evidence windows removed them.
 - A single bibliography entry can break a verdict: with neural retrieval, a true claim came out inconclusive because a reference entry (title, journal, pages, year) was retrieved and the NLI model scored it 0.92 contradiction. References are now removed before indexing (616 to 476 chunks on my 10-paper corpus) and the verifier skips bibliography-like sentences. It is a heuristic tuned on that corpus.
-- On a 0.5B generator, the verifier flagged 5 of 6 sentences of a partly invented answer and confirmed 2 of 2 of a faithful one. Hand-checked samples, not a benchmark: next step is a public claim-verification dataset.
+- On a 0.5B generator, the verifier flagged 5 of 6 sentences of a partly invented answer and confirmed 2 of 2 of a faithful one. Hand-checked samples, not a benchmark.
+- Then I measured it on a public benchmark, SciFact (300 claims). Fine-tuning the NLI verifier on the training claims lifted end-to-end accuracy from 48 % to **60 %** (always answering the majority class scores 41 %), and retrieval finds the evidence abstract in the top 5 for **90 %** of claims. Against published systems it does **not** compete on accuracy: 41 F1 in the open setting against 51 for the first baseline and 68–73 for recent GPU systems. Its case is cost and transparency: 105 M parameters, CPU only, 0.3 s per claim.
+- Adding 29,000 unrelated abstracts to the corpus (6.6 times its size) cost about 3 points of top-5 retrieval and left verification unchanged: what matters is that the corpus contains the evidence, not its size.
 
 [**→ Repository, documentation and limitations**](https://github.com/Corrosifu/RAG_Fact_Checking)
 
