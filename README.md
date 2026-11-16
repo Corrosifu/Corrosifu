@@ -128,7 +128,7 @@ Small local language models write fluent answers that are sometimes not backed b
 
 ## Experience
 
-- <img src="img/logos/sanofi.png" alt="Sanofi" height="34"> **Sanofi** · data scientist (current).
+- <img src="img/logos/sanofi.png" alt="Sanofi" height="34"> **Sanofi** · data scientist — Rare disease forecasting (XGBoost) (current).
 - <img src="img/logos/jlc.png" alt="Jaeger-LeCoultre" height="34"> **Jaeger-LeCoultre** · data science intern (2023) — supply-chain demand forecasting (XGBoost, Random Forest, LSTM on BigQuery and SQL Server); improved the weighted MAPE by **45 %** compared with the business teams' own forecasts.
 - <img src="img/logos/sorbonne.png" alt="Sorbonne Université" height="34"> **Sorbonne Université** · research intern (2022) — reinforcement learning for autonomous parking: LQR, DDPG and DQN controllers in HighwayEnv.
 - **TurtleBot autonomous racing** (2022) — ROS and Gazebo, LIDAR/camera/IMU, OpenCV colour detection, PID tuning.
